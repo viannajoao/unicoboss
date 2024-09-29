@@ -1,0 +1,38 @@
+section{
+  padding: 20px 35px;
+  background-color: #030101a6;
+  border-radius: 5px;
+  max-width: 400px;
+  min-height: 300px;
+
+  h2{
+    text-align: center;
+    font-weight: bold;
+    color: #FFF;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #FFF;
+    padding-bottom: 15px;
+  }
+
+  li{
+    margin-bottom: 10px;
+    color: #FFF;
+  }
+
+  .cards__btn{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    button{
+      padding: 10px 20px;
+      background-color: #FFF;
+      color: #030101;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  }
+}
+
