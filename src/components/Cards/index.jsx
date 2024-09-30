@@ -6,7 +6,7 @@ function Cards({titulo, dicas}){
   const LiDicas = Object.values(dicas)
   
   return (
-    <section>
+    <section className="cards-banner">
       <h2>{titulo}</h2>
       <ul>
         {LiDicas.map((dica, index) => (

@@ -1,4 +1,5 @@
 import './App.css'
+import Information from './components/Information'
 import PrincipalScreen from './components/PrincipalScreen'
 
 
@@ -9,6 +10,7 @@ function App() {
       <PrincipalScreen >
         teste
       </PrincipalScreen>
+      <Information />
     </>
   )
 }
