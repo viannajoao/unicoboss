@@ -41,7 +41,7 @@ function Information() {
 
   return (
     <div className="info_card">
-      <h2>CONHEÇA AS ÁRES</h2>
+      <h2>CONHEÇA AS ÁREAS</h2>
       <div className="cards">
         <Cards titulo={criptomoeda[0].titulo} dicas={criptomoeda[1]} />
         <Cards titulo={Investimentos[0].titulo} dicas={Investimentos[1]} />
