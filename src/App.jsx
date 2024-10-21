@@ -1,6 +1,7 @@
 import './App.css'
 import Information from './components/Information'
 import PrincipalScreen from './components/PrincipalScreen'
+import Rodape from './components/Rodape'
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
         teste
       </PrincipalScreen>
       <Information />
+      <Rodape />
     </>
   )
 }
