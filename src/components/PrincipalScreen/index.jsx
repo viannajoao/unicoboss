@@ -1,6 +1,7 @@
 import "./PrincipalScreen.scss";
 import backsidevideo from "../../assets/backsidevideo.mp4";
 import Information from "../Information";
+import logo from "../../assets/logotipo_semfundo_reduzida.png";
 
 
 const PrincipalScreen = () => {
@@ -23,8 +24,8 @@ const PrincipalScreen = () => {
 
       <div className="content">
           <nav>
-            <a>Logo
-              <img src="" alt="" />
+            <a className="logotipo">
+              <img className="logo" src={logo} alt="Logotipo UnicoBoss" />
             </a>
             <ul className="links">
               <li><a href="#">Home</a></li>
@@ -36,12 +37,8 @@ const PrincipalScreen = () => {
             </ul>
           </nav>
         <header>
-          <h1>Cursos, mentorias, Ebooks, dicas e muito mais para fazer você conquistar sua{' '} <span className="highlight">Liberdade Financeira !</span> </h1>
-          {/* <h3>Confira abaixo</h3> */}
-          <div>
-            {/* <a href="#" className="button">Saiba mais</a>
-            <a href="#" className="button">Faça um teste grátis</a> */}
-          </div>
+          <h1 className="text-primary">Cursos, mentorias, Ebooks, dicas e muito mais para fazer você conquistar sua{' '} <span className="highlight">Liberdade Financeira !</span> </h1>
+          <div></div>
         </header>
       </div>
     </main>

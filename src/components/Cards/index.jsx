@@ -7,7 +7,7 @@ function Cards({titulo, dicas}){
   
   return (
     <section className="cards-banner">
-      <h2>{titulo}</h2>
+      <h3>{titulo}</h3>
       <ul>
         {LiDicas.map((dica, index) => (
           <li key={index}>{dica}</li>
