@@ -1,19 +1,21 @@
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
-import Information from './components/Information'
 import PrincipalScreen from './components/PrincipalScreen'
 import Rodape from './components/Rodape'
+import Panetones from './components/RendaExtra/Panetones'
 
 
 function App() {
-  
+
   return (
-    <>
-      <PrincipalScreen >
-        teste
-      </PrincipalScreen>
-      <Information />
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<PrincipalScreen />} />
+        <Route path='/ganharDinheiroEmNovembro' element={<Panetones />} />
+
+      </Routes>
       <Rodape />
-    </>
+    </BrowserRouter>
   )
 }
 

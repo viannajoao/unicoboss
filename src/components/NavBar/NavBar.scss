@@ -1,0 +1,129 @@
+.navbar-default {
+  width: 100%;
+  max-height: 80px;
+  color: #FFF;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid #cccccc50;
+
+  .logo {
+    width: auto;
+    height: 80px;
+    //margin-bottom: 10px
+  }
+
+  .links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+    gap: 2rem;
+
+    li{
+      position: relative;
+    }
+
+    a {
+      text-decoration: none;
+      color: #FFF;
+      transition: color 0.3s ease-in-out;
+      font-weight: bold;
+      padding: 0px 1.5rem;
+      position: relative;
+      display: inline-block;
+
+      &::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -5px;
+        /* Posiciona a borda um pouco abaixo do texto */
+        width: 0%;
+        height: 2px;
+        /* Altura da borda */
+        background-color: #F7D488;
+        transition: width 0.4s ease-in-out;
+        /* Transição suave */
+      }
+
+      &:hover {
+        color: #F7D488;
+
+        &:after {
+          width: 100%;
+        }
+      }
+    } 
+
+    .arrow {
+      margin-left: 5px;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #333;
+      padding: 10px 0;
+      margin-top: 5px;
+      min-width: 200px;
+      box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+      z-index: 3;
+
+      li {
+        padding: 10px;
+        text-align: left;
+        list-style: none;
+      }
+
+      a{
+        color: #FFF; /* Ajuste para a cor desejada */
+        text-decoration: none;
+        display: block;
+        padding: 10px 20px;
+      }
+
+      a:hover{
+        background-color: #575757;
+      }
+    }
+
+    /* Mostrar o submenu ao passar o mouse sobre o link "Grátis" */
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+  }
+}
+
+
+.bottom-navbar {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #121212; /* Cor de fundo dark */
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.nav-icon {
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.nav-icon i {
+  display: block;
+}
+
+@media screen and (min-width: 934px) {
+  .bottom-navbar {
+    display: none ;
+  }
+
+  .links{
+    display: flex !important;
+  }
+}
