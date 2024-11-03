@@ -14,6 +14,7 @@ const PageLayout = ({ title, description, children }) => {
       {/* Layout da página */}
       <div className='ad-banner'></div>
       <div className="container">
+     
         
         {/* Conteúdo principal do blog */}
         <main className="main-content">

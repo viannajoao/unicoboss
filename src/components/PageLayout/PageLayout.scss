@@ -1,69 +1,109 @@
 .page-layout {
-  //height: 100vh;
-  //margin-top: 200px;
-  padding: 2rem;
-  .ad-banner{
+
+
+  .ad-banner {
     width: 100%;
     height: 200px;
-    background-color: #f7f7f7;
     border-radius: 10px;
+    margin-top: 15px;
   }
+
   .container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 2rem;
 
- 
+
   }
 
   .main-content {
-    flex: 4; /* Ocupa a maior parte do layout */
-    padding: 0 2rem; /* Espaçamento do lado direito */
+    display: flex;
+    flex: 3;
+    padding: 0 2rem;
     padding-left: 4rem;
-    //background-color: green;
 
-    h1{
+    h1 {
       margin-bottom: 2rem;
       font-size: 34px;
     }
-    
-    h2{
-      margin-bottom: 7px;
-      border-bottom: 1px solid #eeeeee57;
-      //max-width: 400px;
-      //background-color: green;
+
+    h2 {
+      margin-bottom: 15px;
+      font-size: 26px;
       display: inline-block;
     }
 
-    p{
+    p {
       font-size: 1.2rem;
       margin-bottom: 2rem;
+      line-height: 19px;
     }
 
-    small{
-      //margin-right: -100px;
-      // background-color: green;
-    }
-
-    #img-default{
-      width: 100%;
-    }
+    .pictures {
+      // width: 100%;
+      // height: 500px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: center;
+      align-items: center;
     
-    img{
+    }
+
+    #img-default {
       width: 80%;
+      height: auto;
+      object-fit: cover;
+    }
+
+    .images-layout {
+      //width: 100%;
       height: 500px;
       border-radius: 10px;
-      //max-width: 500px;
+      object-fit: cover;
       margin-bottom: 1rem;
+      flex: 1;
+    }
+
+    .toBuy {
+      max-width: 100%;
+      margin-top: 1rem;
+      font-size: 1.2rem;
+      background-color: #F7D488;
+
+      
+      border-radius: 5px;
+
+      a {
+        width: 100%;
+        height: 100%;
+        padding: 20px 15px;
+        //background-color: red;
+        cursor: pointer;
+        text-align: center;
+        color: #121212;
+        text-decoration: none;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+
+        &:hover {
+          color: #ffffff;
+        }
+      }
+
+      
+
     }
 
   }
 
   .sidebar {
-    flex: 2; /* A sidebar com anúncios ocupa menos espaço */
+    flex: 1;
+    /* A sidebar com anúncios ocupa menos espaço */
     height: 100vh;
-    background-color: #f7f7f7;
+    //background-color: #f7f7f7;
     padding: 1rem;
     border-radius: 8px;
   }
@@ -72,5 +112,65 @@
     width: 100%;
     text-align: center;
     padding: 1rem 0;
+  }
+}
+
+
+
+
+
+@media screen and (max-width: 1071px) {
+  .side2 {
+    display: none;
+  }
+
+  .main-content {
+    padding-left: 0.1rem !important;
+  }
+}
+
+@media screen and (max-width: 1293px) {
+  .pictures{
+    background-color: red;
+  }
+
+  .images-layout{
+    width: auto;
+    height: 300px !important;
+  }
+}
+
+@media screen and (max-width: 1675px) {
+  // .images-layout {
+  //   height: 400px !important;
+  // }
+}
+
+@media screen and (max-width: 1600px) {
+  .pictures{
+    // flex-direction: column;
+    align-items: center;
+    gap: 5px !important;
+    height: auto !important;
+    width: auto !important;
+  }
+  
+  .images-layout {
+    height: 300px !important;
+    object-position: top;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .images-layout {
+    width: 100% !important;
+    height: auto !important;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .sidebar {
+    display: none;
   }
 }

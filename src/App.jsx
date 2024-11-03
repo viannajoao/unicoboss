@@ -2,7 +2,8 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
 import PrincipalScreen from './components/PrincipalScreen'
 import Rodape from './components/Rodape'
-import Panetones from './components/RendaExtra/Panetones'
+import Panetones from './pages/Panetones'
+import Blog from './components/Blog'
 
 
 function App() {
@@ -11,8 +12,8 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<PrincipalScreen />} />
-        <Route path='/ganharDinheiroEmNovembro' element={<Panetones />} />
-
+        <Route path='/Blog/ganharDinheiroEmNovembro' element={<Panetones />} />
+        <Route path='/Blog' element={ <Blog />} />
       </Routes>
       <Rodape />
     </BrowserRouter>

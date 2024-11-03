@@ -22,7 +22,7 @@
       {"html": "<p>Agora, imagine que você decida aumentar a produção, diversificar os sabores e trabalhar com encomendas grandes para empresas. As possibilidades são enormes e, com uma boa estratégia de divulgação, você pode transformar os panetones em uma renda extra substancial neste final de ano.</p>"},
       {"html": "<h2>Para mais detalhes e efetividade</h2>"},
       {"html": "<p>Quer aprender mais detalhes sobre como montar seu negócio de panetones e garantir um final de ano lucrativo? Clique no botão abaixo e descubra nosso curso completo, que vai te ensinar tudo o que você precisa saber, desde as receitas até as melhores estratégias de venda. Não perca essa oportunidade de começar seu próprio negócio e transformar este Natal em um sucesso financeiro!</p>"},
-      {"html": "<img src='/images/panetones/CursoPanetone6.png'/>"},
-      {"html": "<p><a href='https://go.hotmart.com/N96109591R'>Clique aqui para saber mais sobre o curso de Panetones Lucrativos!</a></p>"}
+      {"html": "<div class='pictures'><img class='images-layout' src='/images/panetones/CursoPanetone6.png'/><img class='images-layout' src='/images/panetones/CursoPanetone5.png'/></div>"},
+      {"html": "<div class='toBuy'><a href='https://go.hotmart.com/N96109591R'>Clique aqui para saber mais sobre o curso de Panetones Lucrativos!</a></div>"}
   ]
 }

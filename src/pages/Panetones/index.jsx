@@ -1,7 +1,7 @@
-import NavBar from '../../NavBar';
-import PageLayout from '../../PageLayout';
+import NavBar from '../../components/NavBar';
+import PageLayout from '../../components/PageLayout';
 import "./Panetones.scss";
-import blogContent from "../../../artigos/json/panetones/panetones.json"
+import blogContent from "../../artigos/json/panetones/panetones.json";
 
 const Panetones = () => {
   return (

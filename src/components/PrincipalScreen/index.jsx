@@ -2,6 +2,7 @@ import "./PrincipalScreen.scss";
 import backsidevideo from "../../assets/backsidevideo.mp4";
 import Information from "./Information";
 import logo from "../../assets/logotipo_semfundo_reduzida.png";
+import { Link } from "react-router-dom";
 
 
 const PrincipalScreen = () => {
@@ -29,7 +30,7 @@ const PrincipalScreen = () => {
               <img className="logo" src={logo} alt="Logotipo UnicoBoss" />
             </a>
             <ul className="links">
-              <li><a href="#">Home</a></li>
+              <li><Link to="/">Home</Link></li>
               <li className="dropdown">
                 <a href="#">Gratis<span className="arrow">▼</span></a>
                 <ul className="dropdown-content">
@@ -39,7 +40,7 @@ const PrincipalScreen = () => {
                 </ul>
               </li>
               <li><a href="#">Cursos</a></li>
-              <li><a href="#">Mentorias</a></li>
+              <li><Link to="/Blog">Blog</Link></li>
               <li><a href="#">Contato</a></li>
               {/* <li><a href="#">Login</a></li> */}
             </ul>
