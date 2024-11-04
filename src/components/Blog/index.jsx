@@ -2,31 +2,11 @@ import { Link } from "react-router-dom";
 import "./Blog.scss";
 import NavBar from "../NavBar";
 import News from "../News";
+import articles from "../../artigos/json/sugestoes/sugestoes.js"
 
 function Blog() {
 
-  let articles = [
-    {
-      title: "Panetone",
-      photo: "/images/panetones/CursoPanetone5.png",
-      date: "20 de Outubro de 2024",
-      page: "/Blog/ganharDinheiroEmNovembro",
-      desc: "Entenda como algumas pessoas ganham muito dinheiro em novembro e enquanto algumas pessoas so gastam dinheiro"
-    },
-    {
-      title: "12 Renda Extra",
-      photo: "/images/panetones/CursoPanetone6.png",
-      date: "10 de Outubro de 2024",
-      page: "/Blog/ganharDinheiroEmNovembro",
-      desc: "12 ideias de como obter Renda Extra para aumentar o seu capital"
-    },
-    {
-      title: "12 Renda Extra",
-      photo: "Conteúdo do artigo 2",
-      date: "12 de Novembro de 2022"
-    },
-    //... outros panetones
-  ]
+
 
   return (
     <div>

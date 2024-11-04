@@ -14,9 +14,10 @@ function NavBar() {
           <li className="dropdown">
             <a href="#">Gratis<span className="arrow">▼</span></a>
             <ul className="dropdown-content">
-              <li><a href="#">aaaaaa</a></li>
+              <span style={{color: "grey", padding: "10px"}}>Em construção</span>
+              {/* <li><a href="#">aaaaaa</a></li>
               <li><a href="#">dfafaf</a></li>
-              <li><a href="#">adaddad</a></li>
+              <li><a href="#">adaddad</a></li> */}
             </ul>
           </li>
           <li><a href="#">Cursos</a></li>

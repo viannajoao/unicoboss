@@ -4,6 +4,7 @@ import PrincipalScreen from './components/PrincipalScreen'
 import Rodape from './components/Rodape'
 import Panetones from './pages/Panetones'
 import Blog from './components/Blog'
+import RendaExtra from './pages/RendaExtra'
 
 
 function App() {
@@ -12,8 +13,9 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<PrincipalScreen />} />
-        <Route path='/Blog/ganharDinheiroEmNovembro' element={<Panetones />} />
         <Route path='/Blog' element={ <Blog />} />
+        <Route path='/Blog/ganharDinheiroEmNovembro' element={<Panetones />} />
+        <Route path='/Blog/RendaExtra' element={ <RendaExtra />} />
       </Routes>
       <Rodape />
     </BrowserRouter>

@@ -1,8 +1,13 @@
-import { Helmet } from 'react-helmet'; 
+import { Helmet } from 'react-helmet';
+import { Link } from 'react-router-dom';
+import News from '../News';
 import './PageLayout.scss';
+import articles from "../../artigos/json/sugestoes/sugestoes.js"
 
 // eslint-disable-next-line react/prop-types
 const PageLayout = ({ title, description, children }) => {
+
+
   return (
     <div className="page-layout">
       {/* SEO com React Helmet */}
@@ -14,8 +19,8 @@ const PageLayout = ({ title, description, children }) => {
       {/* Layout da página */}
       <div className='ad-banner'></div>
       <div className="container">
-     
-        
+
+
         {/* Conteúdo principal do blog */}
         <main className="main-content">
           {children} {/* O conteúdo personalizado de cada página será injetado aqui */}
@@ -40,6 +45,24 @@ const PageLayout = ({ title, description, children }) => {
             <script>{`(adsbygoogle = window.adsbygoogle || []).push({});`}</script>
           </div>
         </aside>
+      </div>
+
+      <div className="reference-articles">
+        <div>
+          <h4>Conheça nossos demais artigos</h4>
+        </div>
+        <div className='other-articles'>
+          {articles.map((item, index) => (
+            <Link className="links-articles" key={index} to={item.page}>
+              <News title={item.title} date={item.date} photo={item.photo} description={item.desc}>
+
+              </News>
+
+
+            </Link>
+          ))}
+        </div>
+
       </div>
     </div>
   );
