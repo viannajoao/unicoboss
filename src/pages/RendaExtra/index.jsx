@@ -7,7 +7,7 @@ const RendaExtra = () => {
     <>
       <NavBar />
       <PageLayout
-        title="1IDEIAS DE RENDA EXTRA"
+        title="12 IDEIAS DE RENDA EXTRA"
         description="Descubra 12 ideias de renda extra super acessivel para você começar hoje."
       >
         <div>

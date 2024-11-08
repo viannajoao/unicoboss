@@ -9,7 +9,7 @@ function Blog() {
 
 
   return (
-    <div>
+    <div className="container-blog">
       <NavBar />
       <header className="principal-view">
 

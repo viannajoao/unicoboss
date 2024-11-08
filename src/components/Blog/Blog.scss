@@ -1,11 +1,18 @@
+.container-blog{
+  //background-color: green;
+  display: flex;
+  flex-direction: column;
+}
+
 .principal-view {
   width: 100%;
+  //background-color: red;
   display: flex;
   justify-content: center;
   align-items: start;
   padding-left: 5rem;
   flex-direction: column;
-  //background-color: red;
+  margin-top: 100px;
 
   p{
     font-size: 24px;
@@ -19,6 +26,7 @@
     margin-bottom: 50px;
     position: relative;
     animation: shake 2s infinite;
+    z-index: 0;
 
 
     @keyframes shake {

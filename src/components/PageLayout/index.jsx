@@ -19,7 +19,24 @@ const PageLayout = ({ title, description, children }) => {
       {/* Layout da página */}
       <div className='ad-banner'></div>
       <div className="container">
-
+        <aside className="sidebar">
+          <div className="ad-space">
+            {/* Espaço reservado para o AdSense */}
+            <script
+              async
+              src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+            ></script>
+            <ins
+              className="adsbygoogle"
+              style={{ display: 'block' }}
+              data-ad-client="ca-pub-XXXXXXXXXX" // Substitua pelo seu ID do Google AdSense
+              data-ad-slot="XXXXXXX"
+              data-ad-format="auto"
+              data-full-width-responsive="true"
+            ></ins>
+            <script>{`(adsbygoogle = window.adsbygoogle || []).push({});`}</script>
+          </div>
+        </aside>
 
         {/* Conteúdo principal do blog */}
         <main className="main-content">
