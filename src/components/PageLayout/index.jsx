@@ -22,10 +22,8 @@ const PageLayout = ({ title, description, children }) => {
         <aside className="sidebar">
           <div className="ad-space">
             {/* Espaço reservado para o AdSense */}
-            <script
-              async
-              src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
-            ></script>
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7197788984433583"
+              crossOrigin="anonymous"></script>
             <ins
               className="adsbygoogle"
               style={{ display: 'block' }}
@@ -47,10 +45,8 @@ const PageLayout = ({ title, description, children }) => {
         <aside className="sidebar">
           <div className="ad-space">
             {/* Espaço reservado para o AdSense */}
-            <script
-              async
-              src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
-            ></script>
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7197788984433583"
+              crossOrigin="anonymous"></script>
             <ins
               className="adsbygoogle"
               style={{ display: 'block' }}
