@@ -6,8 +6,6 @@ import articles from "../../artigos/json/sugestoes/sugestoes.js"
 
 function Blog() {
 
-
-
   return (
     <div className="container-blog">
       <NavBar />
