@@ -1,8 +1,21 @@
 import { Link } from "react-router-dom";
 import logo from "../../assets/logotipo_semfundo_reduzida.png";
 import "./NavBar.scss";
+import Blog from "../Blog"
 
-function NavBar() {
+// eslint-disable-next-line react/prop-types
+function NavBar({mudarEstado, open}) {
+
+  console.log(open)
+
+
+  const toggleSidebar = () =>{
+    console.log(open)
+    return mudarEstado(!open)
+    //console.log(open)
+  }
+
+
   return (
     <div className="container">
       <nav className="navbar-default">
@@ -14,7 +27,7 @@ function NavBar() {
           <li className="dropdown">
             <a href="#">Gratis<span className="arrow">▼</span></a>
             <ul className="dropdown-content">
-              <span style={{color: "grey", padding: "10px"}}>Em construção</span>
+              <span style={{ color: "grey", padding: "10px" }}>Em construção</span>
               {/* <li><a href="#">aaaaaa</a></li>
               <li><a href="#">dfafaf</a></li>
               <li><a href="#">adaddad</a></li> */}
@@ -37,9 +50,23 @@ function NavBar() {
         <a href="#" className="nav-icon">
           <i className="fas fa-search"></i>
         </a>
-        <a href="#" className="nav-icon">
+        <a onClick={toggleSidebar} className="nav-icon">
           <i className="fas fa-bars"></i>
         </a>
+      </div>
+
+      <div className={`sidebar-container${open ? ' open' : ''}`}>
+        <button className="close-btn" onClick={toggleSidebar}>
+          <b>X</b>{/* Ícone de fechar */}
+        </button>
+        <nav className="sidebar-nav">
+          <Link to="/" onClick={toggleSidebar}>Home</Link>
+          <Link to="/buscar" onClick={toggleSidebar}>Buscar</Link>
+          <Link to="/contato" onClick={toggleSidebar}>Contato</Link>
+          <Link to="/Blog" Element={<Blog />} onClick={toggleSidebar}>Blog</Link>
+        </nav>
+        {/* Overlay para fechar o menu ao clicar fora dele */}
+        {open && <div className="overlay-mobile" onClick={toggleSidebar}></div>}
       </div>
     </div>
   )

@@ -33,7 +33,7 @@
       width: 100%;
       height: 100%;
       background: rgba(0, 0, 0, 0.733); // Altere a opacidade conforme necessário
-      z-index: 2; // Coloca o overlay acima do vídeo
+      z-index: 1; // Coloca o overlay acima do vídeo
     }
 
   }
@@ -68,7 +68,7 @@
     //background-color: green;
     position: relative;
     z-index: 3;
-    padding: 20px;
+    //padding: 20px;
     width: 100%;
     height: 100%;
     display: flex;
@@ -76,9 +76,10 @@
 
     nav {
       width: 100%;
-      max-height: 60px;
+      max-height: 80px;
       color: #FFF;
       display: flex;
+      padding: 20px 0;
       justify-content: space-around;
       align-items: center;
       border-bottom: 1px solid #cccccc50;
@@ -213,26 +214,93 @@
 }
 
 .bottom-navbar {
-  display: flex;
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: #121212; /* Cor de fundo dark */
-  padding: 10px 0;
+  background: #333;
   display: flex;
   justify-content: space-around;
-  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.5);
+  align-items: center;
+  padding: 10px 0;
+  z-index: 100;
 }
 
-.nav-icon {
+.bottom-navbar .nav-icon {
   color: white;
-  font-size: 24px;
+  text-align: center;
+  font-size: 20px;
   text-decoration: none;
+  transition: color 0.3s ease;
+  cursor: pointer;
 }
 
-.nav-icon i {
-  display: block;
+.bottom-navbar .nav-icon:hover {
+  color: #f0e68c;
 }
+
+/* Sidebar */
+.sidebar-container {
+  position: fixed;
+  top: 0;
+  left: -300px; /* Fora da tela inicialmente */
+  width: 300px;
+  height: 100%;
+  background-color: #333;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  transition: left 0.3s ease;
+  z-index: 102;
+}
+
+.sidebar-container.open {
+  left: 0; /* Mostra a barra lateral */
+}
+
+.sidebar .close-btn {
+  align-self: flex-end;
+  font-size: 24px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.sidebar-nav{
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+.sidebar-nav a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 0;
+  font-size: 18px;
+  transition: background 0.3s ease;
+}
+
+.sidebar-nav a:hover {
+  background: #444;
+}
+
+/* Overlay para fechar o menu ao clicar fora dele */
+
+.overlay-mobile {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 101;
+  color: #FFF;
+}
+
+
 
 @media screen and (min-width: 934px) {
   .bottom-navbar {
@@ -241,6 +309,12 @@
 
   .links{
     display: flex !important;
+  }
+
+ 
+  nav{
+    max-height: 60px;
+    
   }
 }
 
