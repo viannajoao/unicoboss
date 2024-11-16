@@ -4,7 +4,7 @@
   min-height: 150px;
   display: flex;
   gap: 15px;
-  //background-color: green;
+ // background-color: green;
 
 
 }
@@ -14,12 +14,10 @@
   height: 150px;
   border-radius: 10px;
 
-  img{
+  .frame-logo{
     width: 100%;
     height: 100%;
     object-fit: cover;
-    //object-position: top;
-    position: center;
     border-radius: 10px;
   }
 }
@@ -41,10 +39,42 @@
   font-size: 18px;
   margin-top: 10px;
   text-align: justify;
+  max-width: 400px;
+  
 }
 
 .card-news:hover{
   background-color: #2E2E2E;
   cursor: pointer;
   border-radius: 10px;
+}
+
+@media screen and (max-width: 940px) {
+ 
+}
+
+@media screen and (max-width: 569px) {
+  .photo-frame{
+    height: 180px;
+  }
+}
+
+@media screen and (max-width: 463px) {
+  .description{
+    font-size: 16px;
+    min-width: 90%;
+  }
+}
+
+@media screen and (max-width: 447px) {
+    .photo-frame{
+      height: 150px;
+      width: 150px;
+      display: flex;
+      align-items: center;
+    }
+
+    .frame-logo{
+      height: 100px !important;
+    }
 }

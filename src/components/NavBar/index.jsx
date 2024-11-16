@@ -2,23 +2,20 @@ import { Link } from "react-router-dom";
 import logo from "../../assets/logotipo_semfundo_reduzida.png";
 import "./NavBar.scss";
 import Blog from "../Blog"
+import PrincipalScreen from "../PrincipalScreen";
 
 // eslint-disable-next-line react/prop-types
-function NavBar({mudarEstado, open}) {
-
-  console.log(open)
-
+function NavBar({mudarEstado, open, isTransparent}) {
 
   const toggleSidebar = () =>{
-    console.log(open)
     return mudarEstado(!open)
-    //console.log(open)
+
   }
 
 
   return (
     <div className="container">
-      <nav className="navbar-default">
+      <nav id="navbar-principalscreen" className={`navbar-default ${isTransparent ? 'transparent' : 'solid'}`}>
         <a className="logotipo">
           <img className="logo" src={logo} alt="Logotipo UnicoBoss" />
         </a>
@@ -41,7 +38,7 @@ function NavBar({mudarEstado, open}) {
 
       </nav>
       <div className="bottom-navbar">
-        <a href="#" className="nav-icon">
+        <a href="/" className="nav-icon">
           <i className="fas fa-home"></i>
         </a>
         <a href="#" className="nav-icon">
@@ -55,18 +52,18 @@ function NavBar({mudarEstado, open}) {
         </a>
       </div>
 
-      <div className={`sidebar-container${open ? ' open' : ''}`}>
-        <button className="close-btn" onClick={toggleSidebar}>
+      <div id="sidebar" className={`sidebar-container${open ? ' open' : ''}`}>
+        <button id="btn" className="close-btn" onClick={toggleSidebar}>
           <b>X</b>{/* Ícone de fechar */}
         </button>
-        <nav className="sidebar-nav">
-          <Link to="/" onClick={toggleSidebar}>Home</Link>
+        <nav id="navbar" className="sidebar-nav">
+          <Link to="/" Element={<PrincipalScreen />} onClick={toggleSidebar}>Home</Link>
           <Link to="/buscar" onClick={toggleSidebar}>Buscar</Link>
           <Link to="/contato" onClick={toggleSidebar}>Contato</Link>
           <Link to="/Blog" Element={<Blog />} onClick={toggleSidebar}>Blog</Link>
         </nav>
         {/* Overlay para fechar o menu ao clicar fora dele */}
-        {open && <div className="overlay-mobile" onClick={toggleSidebar}></div>}
+        
       </div>
     </div>
   )

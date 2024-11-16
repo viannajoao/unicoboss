@@ -5,7 +5,7 @@ function News({ title, date, photo, description }) {
   return (
     <div className="card-news">
       <div className="photo-frame">
-        <img src={photo} alt="" />
+        <img className="frame-logo" src={photo} alt="" />
       </div>
       <div>
         <span className="data-criacao">{date}</span>
