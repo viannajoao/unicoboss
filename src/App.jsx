@@ -14,7 +14,7 @@ function App() {
   const location = useLocation();
 
   const isTransparent = location.pathname === "/";
-  console.log(isTransparent)
+  
 
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 

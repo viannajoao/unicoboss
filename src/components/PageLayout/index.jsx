@@ -1,4 +1,4 @@
-import { Helmet } from 'react-helmet';
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 import News from '../News';
 import './PageLayout.scss';
@@ -11,6 +11,7 @@ const PageLayout = ({ title, description, children }) => {
   return (
     <div className="page-layout">
       {/* SEO com React Helmet */}
+      <HelmetProvider>
       <Helmet>
         <title>{title}</title>
         <meta name="description" content={description} />
@@ -22,8 +23,10 @@ const PageLayout = ({ title, description, children }) => {
         <aside className="sidebar">
           <div className="ad-space">
             {/* Espaço reservado para o AdSense */}
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7197788984433583"
-              crossOrigin="anonymous"></script>
+            <script
+              async
+              src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+            ></script>
             <ins
               className="adsbygoogle"
               style={{ display: 'block' }}
@@ -33,7 +36,19 @@ const PageLayout = ({ title, description, children }) => {
               data-full-width-responsive="true"
             ></ins>
             <script>{`(adsbygoogle = window.adsbygoogle || []).push({});`}</script>
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7197788984433583"
+            crossOrigin="anonymous"></script>
+          <ins className="adsbygoogle"
+            style={{ display: 'block' }}
+            data-ad-client="ca-pub-7197788984433583"
+            data-ad-slot="8571427102"
+            data-ad-format="auto"
+            data-full-width-responsive="true"></ins>
+          <script>
+            {`(adsbygoogle = window.adsbygoogle || []).push({ })`};
+          </script>
           </div>
+         
         </aside>
 
         {/* Conteúdo principal do blog */}
@@ -77,6 +92,7 @@ const PageLayout = ({ title, description, children }) => {
         </div>
 
       </div>
+      </HelmetProvider>
     </div>
   );
 };

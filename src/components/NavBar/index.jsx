@@ -57,10 +57,10 @@ function NavBar({mudarEstado, open, isTransparent}) {
           <b>X</b>{/* Ícone de fechar */}
         </button>
         <nav id="navbar" className="sidebar-nav">
-          <Link to="/" Element={<PrincipalScreen />} onClick={toggleSidebar}>Home</Link>
-          <Link to="/buscar" onClick={toggleSidebar}>Buscar</Link>
+          <Link to="/" element={<PrincipalScreen />} onClick={toggleSidebar}>Home</Link>
+          <Link to="/buscar" onClick={toggleSidebar}>Gratis</Link>
           <Link to="/contato" onClick={toggleSidebar}>Contato</Link>
-          <Link to="/Blog" Element={<Blog />} onClick={toggleSidebar}>Blog</Link>
+          <Link to="/Blog" element={<Blog />} onClick={toggleSidebar}>Blog</Link>
         </nav>
         {/* Overlay para fechar o menu ao clicar fora dele */}
         
