@@ -1,10 +1,12 @@
 /* eslint-disable react/prop-types */
 import "./Cards.scss";
 
-function Cards({titulo, dicas}){
+
+function Cards({ titulo, dicas, src }) {
+  console.log(src)
 
   const LiDicas = Object.values(dicas)
-  
+
   return (
     <section className="cards-banner">
       <h3>{titulo}</h3>
@@ -14,8 +16,12 @@ function Cards({titulo, dicas}){
         ))}
       </ul>
       <div className="cards__btn">
-        <button type="button">Ver mais</button>
+        <a className="link" href={src}>
+          <button src={src} type="submit">Ver mais</button>
+        </a>
       </div>
+
+
     </section>
   )
 }

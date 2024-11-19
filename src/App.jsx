@@ -7,6 +7,7 @@ import Blog from './components/Blog'
 import RendaExtra from './pages/RendaExtra'
 import NavBar from './components/NavBar'
 import { useState } from 'react'
+import Investimentos from './pages/Investimentos'
 
 
 function App() {
@@ -31,6 +32,8 @@ function App() {
         <Route path='/Blog' element={ <Blog />} />
         <Route path='/Blog/ganharDinheiroEmNovembro' element={<Panetones />} />
         <Route path='/Blog/RendaExtra' element={ <RendaExtra />} />
+        <Route path='*' element={() => <h1>Página não encontrada</h1>} />
+        <Route path='/Blog/Investimentos' element={ <Investimentos />}/>
       </Routes>
       <Rodape />
     </>

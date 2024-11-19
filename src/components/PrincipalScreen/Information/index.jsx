@@ -15,7 +15,7 @@ function Information() {
     }
   ]
 
-  let Investimentos = [
+  let investimentos = [
     {
       titulo: "Investimentos"
     },
@@ -25,6 +25,9 @@ function Information() {
       dica2: "Renda variável: Inclui ativos cujo valor pode oscilar significativamente. Ações, fundos imobiliários (FIIs) e moedas são exemplos. A renda variável tende a oferecer maiores retornos, mas também tem mais riscos.",
       dica3: "Renda variável: Inclui ativos cujo valor pode oscilar significativamente. Ações, fundos imobiliários (FIIs) e moedas são exemplos. A renda variável tende a oferecer maiores retornos, mas também tem mais riscos.",
       dica4: "Para investir, você precisa ter conhecimento básico sobre os mercados financeiros, ter um saldo em sua carteira, ter um patrimônio adequado e ter disponibilidade de tempo para investir, saiba mais no botão abaixo.",
+    },
+    {
+      src: "/Blog/Investimentos"
     }
   ]
 
@@ -44,7 +47,7 @@ function Information() {
       <h2>ESCOLHA O QUE MAIS COMBINA COM SEU PERFIL</h2>
       <div className="cards">
         <Cards titulo={criptomoeda[0].titulo} dicas={criptomoeda[1]} />
-        <Cards titulo={Investimentos[0].titulo} dicas={Investimentos[1]} />
+        <Cards titulo={investimentos[0].titulo} dicas={investimentos[1]} src={investimentos[2].src}/>
         <Cards titulo={dropshipping[0].titulo} dicas={dropshipping[1]} />
       </div>
     </div>

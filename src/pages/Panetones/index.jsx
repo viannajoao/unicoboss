@@ -1,5 +1,4 @@
 import PageLayout from '../../components/PageLayout';
-import "./Panetones.scss";
 import blogContent from "../../artigos/json/panetones/panetones.json";
 
 const Panetones = () => {

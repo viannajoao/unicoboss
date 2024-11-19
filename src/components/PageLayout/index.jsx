@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import News from '../News';
 import './PageLayout.scss';
 import articles from "../../artigos/json/sugestoes/sugestoes.js"
+import { Aside } from "../AdSense/index.jsx"
 
 // eslint-disable-next-line react/prop-types
 const PageLayout = ({ title, description, children }) => {
@@ -10,7 +11,6 @@ const PageLayout = ({ title, description, children }) => {
 
   return (
     <div className="page-layout">
-      {/* SEO com React Helmet */}
       <HelmetProvider>
       <Helmet>
         <title>{title}</title>
@@ -20,59 +20,11 @@ const PageLayout = ({ title, description, children }) => {
       {/* Layout da página */}
       <div className='ad-banner'></div>
       <div className="container">
-        <aside className="sidebar">
-          <div className="ad-space">
-            {/* Espaço reservado para o AdSense */}
-            <script
-              async
-              src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
-            ></script>
-            <ins
-              className="adsbygoogle"
-              style={{ display: 'block' }}
-              data-ad-client="ca-pub-XXXXXXXXXX" // Substitua pelo seu ID do Google AdSense
-              data-ad-slot="XXXXXXX"
-              data-ad-format="auto"
-              data-full-width-responsive="true"
-            ></ins>
-            <script>{`(adsbygoogle = window.adsbygoogle || []).push({});`}</script>
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7197788984433583"
-            crossOrigin="anonymous"></script>
-          <ins className="adsbygoogle"
-            style={{ display: 'block' }}
-            data-ad-client="ca-pub-7197788984433583"
-            data-ad-slot="8571427102"
-            data-ad-format="auto"
-            data-full-width-responsive="true"></ins>
-          <script>
-            {`(adsbygoogle = window.adsbygoogle || []).push({ })`};
-          </script>
-          </div>
-         
-        </aside>
-
-        {/* Conteúdo principal do blog */}
+        <Aside />
         <main className="main-content">
-          {children} {/* O conteúdo personalizado de cada página será injetado aqui */}
+          {children} 
         </main>
-
-        {/* Sidebar para anúncios (Google AdSense) */}
-        <aside className="sidebar">
-          <div className="ad-space">
-            {/* Espaço reservado para o AdSense */}
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7197788984433583"
-              crossOrigin="anonymous"></script>
-            <ins
-              className="adsbygoogle"
-              style={{ display: 'block' }}
-              data-ad-client="ca-pub-XXXXXXXXXX" // Substitua pelo seu ID do Google AdSense
-              data-ad-slot="XXXXXXX"
-              data-ad-format="auto"
-              data-full-width-responsive="true"
-            ></ins>
-            <script>{`(adsbygoogle = window.adsbygoogle || []).push({});`}</script>
-          </div>
-        </aside>
+        <Aside />
       </div>
 
       <div className="reference-articles">

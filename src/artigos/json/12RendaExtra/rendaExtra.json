@@ -2,7 +2,7 @@
   "content": [
     {"html": "<h1>12 Ideias Acessíveis para Renda Extra: Comece Agora e Veja Resultados!</h1>"},
     {"html": "<p>Com a crescente busca por novas formas de gerar renda, muitas pessoas estão procurando alternativas que possam ser iniciadas sem altos investimentos ou habilidades complexas. Aqui vamos apresentar 12 ideias acessíveis para quem deseja começar uma renda extra de maneira prática e eficaz.</p>"},
-    {"html": "<img class='images-layout' src='/images/rendaExtra/12Dicas_capa.png' alt='Imagem de capa para artigo sobre renda extra' />"},
+    {"html": "<img id='img-default' src='/images/rendaExtra/12Dicas_capa.png' alt='Imagem de capa para artigo sobre renda extra' />"},
     {"html": "<h2>1. Vendas de Produtos Caseiros</h2>"},
     {"html": "<p>A produção de alimentos como bolos, biscoitos e doces pode ser uma excelente fonte de renda. Além disso, são itens sempre procurados, especialmente em datas comemorativas. Considere vender para conhecidos, em feiras locais ou até pelas redes sociais.</p>"},
     {"html": "<h2>2. Trabalhos Freelance Online</h2>"},
