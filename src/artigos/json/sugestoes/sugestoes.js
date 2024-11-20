@@ -12,6 +12,20 @@ let articles = [
     date: "10 de Outubro de 2024",
     page: "/Blog/RendaExtra",
     desc: "12 ideias de como obter Renda Extra para aumentar o seu capital"
+  },
+  {
+    title: "Criptomoeda",
+    photo: "/images/comoGanharDinheiroNovembro/comoGanharDinheiroNovembro_capa.png",
+    date: "19 de Novembro de 2024",
+    page: "/Blog/Criptomoeda",
+    desc: "Conheça a moeda do futuro e aprenda como investir e conquistar a sua também !"
+  },
+  {
+    title: "Investimentos",
+    photo: "/images/investimentos/capa_investimentos.png",
+    date: "18 de Novembro de 2024",
+    page: "/Blog/Investimentos",
+    desc: "Aprenda a como investir e administrar o seu dinheiro !"
   }
 ]
 

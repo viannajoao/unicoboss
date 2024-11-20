@@ -40,7 +40,7 @@
     p {
       font-size: 1.2rem;
       margin-bottom: 2rem;
-      margin-left: 10px;
+      //margin-left: 10px;
       line-height: 19px;
     }
 
@@ -106,6 +106,15 @@
     }
 
   }
+}
+
+ul{
+  margin-bottom: 20px;
+}
+
+li{
+  margin-bottom: 5px;
+  margin-left: 10px;
 }
 
 .reference-articles{

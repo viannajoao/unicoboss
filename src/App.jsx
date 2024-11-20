@@ -8,6 +8,7 @@ import RendaExtra from './pages/RendaExtra'
 import NavBar from './components/NavBar'
 import { useState } from 'react'
 import Investimentos from './pages/Investimentos'
+import Criptomoeda from './pages/Criptomoeda'
 
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
         <Route path='/Blog/RendaExtra' element={ <RendaExtra />} />
         <Route path='*' element={() => <h1>Página não encontrada</h1>} />
         <Route path='/Blog/Investimentos' element={ <Investimentos />}/>
+        <Route path='/Blog/Criptomoeda' element={ <Criptomoeda />} />
       </Routes>
       <Rodape />
     </>

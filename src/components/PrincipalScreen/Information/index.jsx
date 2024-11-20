@@ -12,6 +12,9 @@ function Information() {
       dica: "A criptomoeda é um tipo de moeda digital que não possui um valor fiscal e opera de maneira anônima. Os criptomoedas podem ser criadas e transferidas por meio de aplicativos móveis, websites e outros meios.",
       dica1: "O Bitcoin (BTC) é a primeira e mais conhecida criptomoeda, criada em 2009 por uma pessoa (ou grupo) sob o pseudônimo de Satoshi Nakamoto. Ele ainda é a principal referência no mercado de criptomoedas, sendo amplamente aceito e utilizado em transações digitais.",
       dica2: "Apesar de suas vantagens, as criptomoedas apresentam riscos, como hacks, fraudes e a falta de proteção ao consumidor em caso de perdas. A ausência de regulamentação em algumas áreas também pode tornar os investidores vulneráveis a golpes.",
+    },
+    {
+      src: "/Blog/Criptomoeda"
     }
   ]
 
@@ -46,7 +49,7 @@ function Information() {
     <div className="info_card" id="information">
       <h2>ESCOLHA O QUE MAIS COMBINA COM SEU PERFIL</h2>
       <div className="cards">
-        <Cards titulo={criptomoeda[0].titulo} dicas={criptomoeda[1]} />
+        <Cards titulo={criptomoeda[0].titulo} dicas={criptomoeda[1]} src={criptomoeda[2].src} />
         <Cards titulo={investimentos[0].titulo} dicas={investimentos[1]} src={investimentos[2].src}/>
         <Cards titulo={dropshipping[0].titulo} dicas={dropshipping[1]} />
       </div>
