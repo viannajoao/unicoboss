@@ -12,7 +12,8 @@ export default defineConfig({
         '/',                // Página inicial
         '/Blog',            // Exemplo de página Blog
         '/Blog/Investimentos', // Exemplo de um artigo específico
-        '/Blog/Criptomoeda', // Outro exemplo de artigo
+        '/Blog/Criptomoeda',
+        'Blog/RendaExtra' // Outro exemplo de artigo
         // Adicione mais rotas aqui
       ],
     })
