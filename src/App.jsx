@@ -1,4 +1,5 @@
 import { Route, Routes, useLocation } from 'react-router-dom'
+import { Analytics } from "@vercel/analytics/react"
 import './App.css'
 import PrincipalScreen from './components/PrincipalScreen'
 import Rodape from './components/Rodape'
@@ -51,6 +52,7 @@ function App() {
         />
       )}
       <Rodape />
+      <Analytics />
     </>
   )
 }
