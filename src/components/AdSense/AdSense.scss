@@ -6,6 +6,16 @@
  // background-color: red;
 }
 
+.sidebar-left {
+  display: flex;
+ 
+}
+
+.sidebar-right {
+  display: flex;
+ 
+}
+
 .ad-space {
   width: 100%;
   text-align: center;
@@ -17,4 +27,16 @@
   height: 200px;
   border-radius: 10px;
   
+}
+
+@media screen and (max-width: 1285px) {
+  .sidebar-left {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .sidebar-right {
+    display: none;
+  }
 }

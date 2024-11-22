@@ -63,6 +63,7 @@
 @media only screen and (max-width: 600px) {
   .footer {
     padding: 10px 0;
+    min-height: 250px;
   }
 
   .footer-content {
@@ -70,9 +71,10 @@
     align-items: center;
   }
 
-  .social-icons {
-    display: none;
+  .social-icons{
+    margin-bottom: 10px;
   }
+ 
 }
 
 /* Footer-Responsive.css */
@@ -87,9 +89,6 @@
     align-items: center;
   }
 
-  .social-icons {
-    display: none;
-  }
 }
 
 /* Footer-DarkMode.css */
@@ -97,21 +96,17 @@
 @media (prefers-color-scheme: dark) {
   .footer {
     background-color: #222222;
-    /* Cor de fundo escuro */
     color: #ffffff;
   }
 
   .social-icons a {
     color: #cccccc;
-    /* Cor cinza claro */
   }
 }
 
-/* Footer-Customization.css */
 
 .custom-footer {
   background-color: #000000;
-  /* Cor de fundo personalizada */
   color: #ffffff;
 }
 
@@ -136,19 +131,13 @@
 
 .custom-footer .footer-content p {
   color: #ffffff;
-  /* Cor branca para o texto do conteúdo do rodapé personalizado */
   font-size: 16px;
-  /* Tamanho de fonte do texto do conteúdo do rodapé personalizado */
   margin-bottom: 10px;
-  /* Espaçamento entre os itens do rodapé personalizado */
   border-bottom: 1px solid #cccccc;
-  /* Linha de separação entre os itens do rodapé personalizado */
   padding-bottom: 10px;
-  /* Espaçamento entre o texto do rodapé personalizado e o próximo item */
   text-align: center;
-  /* Centraliza o texto do rodapé personalizado */
   line-height: 1.5;
-  /* Altura da linha do texto do rodapé personalizado */
+  
 
   @media only screen and (max-width: 600px) {
     font-size: 14px;

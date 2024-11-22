@@ -9,10 +9,10 @@ function Rodape(){
     <img src={logo} alt="Logo" />
   </div>
   <div className="social-icons">
-    <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.facebook.com/profile.php?id=61566016094032" target="_blank" rel="noopener noreferrer">
       <i className="fab fa-facebook-f"></i>
     </a>
-    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.instagram.com/unico_boss/" target="_blank" rel="noopener noreferrer">
       <i className="fab fa-instagram"></i>
     </a>
     <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">

@@ -5,7 +5,7 @@ import Blog from "../Blog"
 import PrincipalScreen from "../PrincipalScreen";
 
 // eslint-disable-next-line react/prop-types
-function NavBar({mudarEstado, open, isTransparent}) {
+function NavBar({mudarEstado, open, isTransparent, onSearchClick}) {
 
   const toggleSidebar = () =>{
     return mudarEstado(!open)
@@ -20,7 +20,7 @@ function NavBar({mudarEstado, open, isTransparent}) {
           <img className="logo" src={logo} alt="Logotipo UnicoBoss" />
         </a>
         <ul className="links">
-          <li><Link to="/">Home</Link></li>
+          <li><Link to="/">Inicio</Link></li>
           <li className="dropdown">
             <a href="#">Gratis<span className="arrow">▼</span></a>
             <ul className="dropdown-content">
@@ -33,6 +33,7 @@ function NavBar({mudarEstado, open, isTransparent}) {
           <li><a href="#">Cursos</a></li>
           <li><Link to="/Blog">Blog</Link></li>
           <li><a href="#">Contato</a></li>
+          <li className="nav-icon"><i className="fas fa-search" onClick={onSearchClick}></i></li>
         </ul>
 
 
@@ -44,7 +45,7 @@ function NavBar({mudarEstado, open, isTransparent}) {
         <a href="#" className="nav-icon">
           <i className="fas fa-info-circle"></i>
         </a>
-        <a href="#" className="nav-icon">
+        <a onClick={onSearchClick} className="nav-icon">
           <i className="fas fa-search"></i>
         </a>
         <a onClick={toggleSidebar} className="nav-icon">
@@ -57,7 +58,7 @@ function NavBar({mudarEstado, open, isTransparent}) {
           <b>X</b>{/* Ícone de fechar */}
         </button>
         <nav id="navbar" className="sidebar-nav">
-          <Link to="/" element={<PrincipalScreen />} onClick={toggleSidebar}>Home</Link>
+          <Link to="/" element={<PrincipalScreen />} onClick={toggleSidebar}>Inicio</Link>
           <Link to="/buscar" onClick={toggleSidebar}>Gratis</Link>
           <Link to="/contato" onClick={toggleSidebar}>Contato</Link>
           <Link to="/Blog" element={<Blog />} onClick={toggleSidebar}>Blog</Link>

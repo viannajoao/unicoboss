@@ -42,6 +42,9 @@ function Information() {
       dica: "Dropshipping é um método de venda online onde um vendedor vende produtos para um cliente diretamente. O cliente compra o produto na loja, o vendedor entrega o produto ao cliente, e o cliente paga o vendedor a taxa de entrega.",
       dica1: "Faça login na plataforma",
       dica2: "Completa login na plataforma",
+    },
+    {
+      src: "/Blog/Dropshipping"
     }
   ]
 
@@ -51,7 +54,7 @@ function Information() {
       <div className="cards">
         <Cards titulo={criptomoeda[0].titulo} dicas={criptomoeda[1]} src={criptomoeda[2].src} />
         <Cards titulo={investimentos[0].titulo} dicas={investimentos[1]} src={investimentos[2].src}/>
-        <Cards titulo={dropshipping[0].titulo} dicas={dropshipping[1]} />
+        <Cards titulo={dropshipping[0].titulo} dicas={dropshipping[1]} src={dropshipping[2].src}/>
       </div>
     </div>
     

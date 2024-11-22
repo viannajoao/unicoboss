@@ -20,11 +20,11 @@ const PageLayout = ({ title, description, children }) => {
       {/* Layout da página */}
       <div className='ad-banner'></div>
       <div className="container">
-        <Aside />
+        <Aside  side="left"/>
         <main className="main-content">
           {children} 
         </main>
-        <Aside />
+        <Aside side="right"/>
       </div>
 
       <div className="reference-articles">
