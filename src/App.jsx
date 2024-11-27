@@ -13,6 +13,7 @@ import PesquisaOverlay from './components/Search'
 import articles from './artigos/json/sugestoes/sugestoes.js'
 import PrivacyPolicy from './pages/PoliticaDePrivacidade/index.jsx'
 import Dropshipping from './pages/Dropshipping/index.jsx'
+import AboutUs from './components/AboutUs/index.jsx'
 
 
 function App() {
@@ -43,6 +44,7 @@ function App() {
         <Route path='/Blog/Criptomoeda' element={<Criptomoeda />} />
         <Route path='/Blog/Dropshipping' element={<Dropshipping />}/>
         <Route path='/politica-de-privacidade' element={<PrivacyPolicy />}/>
+        <Route path="/sobre-nos" element={<AboutUs />} />
       </Routes>
       {mostrarPesquisa && (
         <PesquisaOverlay
