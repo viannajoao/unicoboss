@@ -42,8 +42,8 @@ function App() {
         <Route path='*' element={() => <h1>Página não encontrada</h1>} />
         <Route path='/Blog/Investimentos' element={<Investimentos />} />
         <Route path='/Blog/Criptomoeda' element={<Criptomoeda />} />
-        <Route path='/Blog/Dropshipping' element={<Dropshipping />}/>
-        <Route path='/politica-de-privacidade' element={<PrivacyPolicy />}/>
+        <Route path='/Blog/Dropshipping' element={<Dropshipping />} />
+        <Route path='/politica-de-privacidade' element={<PrivacyPolicy />} />
         <Route path="/sobre-nos" element={<AboutUs />} />
       </Routes>
       {mostrarPesquisa && (
