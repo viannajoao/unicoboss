@@ -1,0 +1,71 @@
+/* Estrutura geral do rodapé */
+.footer {
+  background-color: #1a1a1a; /* Cor de fundo */
+  color: #fff; /* Cor do texto */
+  padding: 30px 10px;
+  text-align: center;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Logo */
+.footer-logo {
+  width: 150px; /* Tamanho ajustável */
+  margin-bottom: 15px;
+}
+
+/* Links essenciais */
+.footer-links {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.footer-link {
+  color: #61dafb; /* Cor dos links */
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+/* Redes sociais */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.social-icons a {
+  color: #fff; /* Cor dos ícones */
+  margin: 0 10px;
+  font-size: 20px; /* Tamanho dos ícones */
+  transition: transform 0.2s;
+}
+
+.social-icons a:hover {
+  color: #61dafb; /* Cor ao passar o mouse */
+  transform: scale(1.2); /* Animação de aumento */
+}
+
+/* Copyright */
+.footer-copyright {
+  font-size: 14px;
+  color: #aaa; /* Cor do texto */
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 938px) {
+  .footer-copyright{
+    margin-bottom: 40px;
+  }
+}

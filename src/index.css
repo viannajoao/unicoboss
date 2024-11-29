@@ -1,3 +1,9 @@
+:root {
+  --text-p: rgba(255, 255, 255, 0.95);
+  --title: rgba(255, 255, 255, 1);
+  --bgDark800: #121212;
+}
+
 *{
   margin: 0;
   padding: 0;
@@ -29,6 +35,6 @@
 
 html{
   font-family: "Roboto Condensed", sans-serif;
-  color: #FFF;
-  background-color: #121212;
+  color: var(--text-p);
+  background-color: var(--bgDark800);
 }

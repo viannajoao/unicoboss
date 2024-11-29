@@ -109,12 +109,21 @@
 }
 
 ul{
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 li{
   margin-bottom: 5px;
   margin-left: 10px;
+  font-size: 16px;
+  font-style: italic;
+
+
+  b{
+    font-size: 18px;
+    text-decoration: underline;
+    font-style: normal;
+  }
 }
 
 .reference-articles{
