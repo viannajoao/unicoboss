@@ -30,6 +30,15 @@ let articles = [
     date: "18 de Novembro de 2024",
     page: "/Blog/Investimentos",
     desc: "Aprenda a como investir e administrar o seu dinheiro !"
+  },
+  {
+    id: 5,
+    title: "10 Dicas para sair da Pobreza",
+    photo: "/images/dicasParaSairDaPobreza/dicasParaSairDaPobreza_capa.png",
+    date: "03 de Dezembro de 2024",
+    page: "/Blog/ComoSairDaPobreza",
+    desc: "10 dicas para sair da pobreza e conquistar a sua própria vida"
+
   }
 ]
 

@@ -15,6 +15,7 @@ import articles from './artigos/json/sugestoes/sugestoes.js'
 import PrivacyPolicy from './pages/PoliticaDePrivacidade/index.jsx'
 import Dropshipping from './pages/Dropshipping/index.jsx'
 import AboutUs from './components/AboutUs/index.jsx'
+import SairDaProbreza from './pages/10Dicas/index.jsx'
 
 
 function App() {
@@ -46,6 +47,7 @@ function App() {
         <Route path='/Blog/Dropshipping' element={<Dropshipping />} />
         <Route path='/politica-de-privacidade' element={<PrivacyPolicy />} />
         <Route path="/sobre-nos" element={<AboutUs />} />
+        <Route path="/Blog/ComoSairDaPobreza" element={ <SairDaProbreza />} />
       </Routes>
       {mostrarPesquisa && (
         <PesquisaOverlay
