@@ -1,12 +1,10 @@
-.container-blog{
-  //background-color: green;
+.container-blog {
   display: flex;
   flex-direction: column;
 }
 
 .principal-view {
   width: 100%;
-  //background-color: red;
   display: flex;
   justify-content: center;
   align-items: start;
@@ -14,7 +12,7 @@
   flex-direction: column;
   margin-top: 100px;
 
-  p{
+  p {
     font-size: 24px;
     margin-bottom: 20px;
     font-weight: bold;
@@ -27,7 +25,6 @@
     position: relative;
     animation: shake 2s infinite;
     z-index: 0;
-
 
     @keyframes shake {
       0% {
@@ -50,88 +47,158 @@
   }
 }
 
-.articles {
+.content {
   display: flex;
-  gap: 15px;
-  //background-color: #ccc;
+  flex-wrap: wrap;
 }
 
-.news-articles {
-  flex: 4;
-  margin-left: 2rem;
-  //background-color: #FFF;
-
-  .links-articles {
-    text-decoration: none;
-    color: #FFF;
-  }
-}
-
-.ads-google {
-  flex: 1;
-  width: 500px;
-  height: 550px;
-  //background-color: #f8f9fa;
-  margin-right: 30px;
+.categories-sidebar {
+  width: 250px;
+  padding: 20px;
+  background-color: #1a1a1a;
+  color: white;
+  border-right: 1px solid #333;
+  margin-left: 10px;
   border-radius: 8px;
+}
+
+.categories-sidebar h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.categories-sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.categories-sidebar li {
+  margin-bottom: 10px;
+}
+
+.category-button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: #242424;
+  text-align: left;
   cursor: pointer;
-  transition: background-color 0.3s ease;
-  &:hover {
-    //background-color: #d4d4d4;
-  }
+  font-size: 16px;
+}
+
+.category-button.active {
+  background-color: #F7D488;
+  color: #121212;
+  font-weight: 600;
+}
+
+.category-button:hover {
+  background-color: #333;
+  color: #FFF;
+}
+
+.articles {
+  flex: 4;
+  padding: 20px;
 }
 
 .pagination {
-  text-align: center;
   margin-top: 20px;
-  //background-color: #343a40;
+  text-align: center;
+}
 
-  button{
-    padding: 20px 10px;
-    color: #FFF;
-    background-color: #343a40;
-    border: none;
-    border-radius: 8px;
-    width: 300px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    font-weight: bold;
-    &:hover {
-      background-color: #212529;
-      color: #F7D488;
-    }
+.pagination button {
+  padding: 10px 20px;
+  background-color: #F7D488;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
 
-  }
+.pagination button:hover {
+  background-color: #F7D488;
+}
 
-  a {
+a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+
+@media (max-width: 782px) {
+  .categories-sidebar {
+    width: 98%;
+    border-right: none;
+    border-bottom: 1px solid #333;
+    padding: 10px 20px;
     margin-right: 10px;
-    font-size: 24px;
-    text-decoration: none;
-    color: #FFF;
   }
 
-  a:hover {
-    color: #007bff;
+ 
+
+  .categories-sidebar ul {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding: 10px 0;
+    margin: 0;
+    gap: 10px;
+    scroll-behavior: smooth;
+  }
+
+  .categories-sidebar li {
+    flex: 0 0 auto;
+    margin-bottom: 0;
+  }
+
+  .category-button {
+    width: auto;
+    padding: 8px 12px;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 14px;
+    background-color: #1a1a1a;
+  }
+
+  .category-button.active {
+    background-color: #F7D488;
+    color: #121212;
+    font-weight: 600;
   }
 }
 
-@media  screen and (max-width: 1000px) {
-  .ads-google{
+@media screen and (max-width: 357px) {
+  .categories-sidebar {
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 1000px) {
+  .ads-google {
     margin-right: 0;
   }
 
-  .news-articles{
+  .news-articles {
     margin-left: 0;
   }
 
-  .principal-view{
+  .principal-view {
     padding-left: 1rem;
   }
 }
 
 @media screen and (max-width: 720px) {
-  .ads-google{
+  .ads-google {
     display: none;
   }
 }
 
+@media screen and (max-width: 1241px) {
+  .ads-google {
+    display: none;
+  }
+}
