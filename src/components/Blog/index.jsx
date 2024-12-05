@@ -28,15 +28,11 @@ function Blog() {
 
   return (
     <div className="container-blog">
-      {/* Cabeçalho */}
       <header className="principal-view">
         <h1>Blog</h1>
-        {/* <p>Artigos mais recentes</p> */}
       </header>
 
-      {/* Container principal */}
       <div className="content">
-        {/* Sidebar de Categorias */}
         <aside className="categories-sidebar">
           <h3>Categorias</h3>
           <ul>
@@ -57,7 +53,6 @@ function Blog() {
           </ul>
         </aside>
 
-        {/* Lista de Artigos */}
         <main className="articles">
           <div className="news-articles">
             {filteredArticles.slice(0, visibleArticles).map((item, index) => (
@@ -72,7 +67,6 @@ function Blog() {
             ))}
           </div>
 
-          {/* Botão Carregar Mais */}
           {visibleArticles < filteredArticles.length && (
             <div className="pagination">
               <button onClick={loadMoreArticles}>CARREGAR MAIS</button>

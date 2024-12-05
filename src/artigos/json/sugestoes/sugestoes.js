@@ -38,10 +38,20 @@ let articles = [
   {
     id: 5,
     title: "10 Dicas para sair da Pobreza",
-    photo: "/images/dicasParaSairDaPobreza/dicasParaSairDaPobreza_capa.png",
+    photo: "/images/10DicasSairPobreza/10DicasFinanceira.png",
     date: "03 de Dezembro de 2024",
     page: "/Blog/ComoSairDaPobreza",
     desc: "10 dicas para sair da pobreza e conquistar a sua própria vida",
+    category: "Dicas Financeira"
+
+  },
+  {
+    id: 6,
+    title: "Como Gastar Seu Dinheiro de Forma Inteligente",
+    photo: "/images/",
+    date: "05 de Dezembro de 2024",
+    page: "/Blog/ComoGastarDinheiroInteligente",
+    desc: "Gastar dinheiro de forma inteligente é mais do que evitar compras desnecessárias.",
     category: "Dicas Financeira"
 
   }

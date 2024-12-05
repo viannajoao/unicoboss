@@ -16,6 +16,8 @@ import PrivacyPolicy from './pages/PoliticaDePrivacidade/index.jsx'
 import Dropshipping from './pages/Dropshipping/index.jsx'
 import AboutUs from './components/AboutUs/index.jsx'
 import SairDaProbreza from './pages/10Dicas/index.jsx'
+import GastarInteligente from './pages/GastarInteligente/index.jsx'
+import NotFound from './components/NotFound/index.jsx'
 
 
 function App() {
@@ -41,13 +43,14 @@ function App() {
         <Route path='/Blog' element={<Blog />} />
         <Route path='/Blog/ganharDinheiroEmNovembro' element={<Panetones />} />
         <Route path='/Blog/RendaExtra' element={<RendaExtra />} />
-        <Route path='*' element={() => <h1>Página não encontrada</h1>} />
+        <Route path='*' element={ <NotFound />} />
         <Route path='/Blog/Investimentos' element={<Investimentos />} />
         <Route path='/Blog/Criptomoeda' element={<Criptomoeda />} />
         <Route path='/Blog/Dropshipping' element={<Dropshipping />} />
         <Route path='/politica-de-privacidade' element={<PrivacyPolicy />} />
         <Route path="/sobre-nos" element={<AboutUs />} />
         <Route path="/Blog/ComoSairDaPobreza" element={ <SairDaProbreza />} />
+        <Route path='/Blog/ComoGastarDinheiroInteligente' element={ <GastarInteligente/>} />
       </Routes>
       {mostrarPesquisa && (
         <PesquisaOverlay
