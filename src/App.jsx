@@ -18,6 +18,13 @@ import AboutUs from './components/AboutUs/index.jsx'
 import SairDaProbreza from './pages/10Dicas/index.jsx'
 import GastarInteligente from './pages/GastarInteligente/index.jsx'
 import NotFound from './components/NotFound/index.jsx'
+import EnriquecerSalarioMinimo from './pages/EnriquecerSalarioMinimo/index.jsx'
+import RendaExtraSemSairDeCasa from './pages/RendaExtraSemSairDeCasa/index.jsx'
+import EmpreenderNoBrasil from './pages/EmpreenderBrasil/index.jsx'
+import MindsetEnriquecer from './pages/MindsetEnriquecer/index.jsx'
+import PlanejamentoFinanceiro from './pages/PlanejamentoFinanceiro/index.jsx'
+import FundosImobiliarios from './pages/PlanejamentoFinanceiro/index.jsx'
+import CartaoCredito from './pages/CartaoCredito/index.jsx'
 
 
 function App() {
@@ -51,6 +58,13 @@ function App() {
         <Route path="/sobre-nos" element={<AboutUs />} />
         <Route path="/Blog/ComoSairDaPobreza" element={ <SairDaProbreza />} />
         <Route path='/Blog/ComoGastarDinheiroInteligente' element={ <GastarInteligente/>} />
+        <Route path="/Blog/enriquecerComSalarioMinimo" element={ <EnriquecerSalarioMinimo />} />
+        <Route path="/Blog/rendaExtraSemSairDeCasa" element={ <RendaExtraSemSairDeCasa />} />
+        <Route path="/Blog/comoEmpreenderNoBrasil" element={ <EmpreenderNoBrasil />} />
+        <Route path='/Blog/mindsetParaEnriquecer' element={ <MindsetEnriquecer />} />
+        <Route path='/Blog/planejamentoFinanceiro2025' element={ <PlanejamentoFinanceiro />}/>
+        <Route path='/Blog/fundosImobiliariosParaGerarRendaPassiva' element={<FundosImobiliarios />}/>
+        <Route path='/Blog/cartaoCreditoComoUsar' element={<CartaoCredito />}/>
       </Routes>
       {mostrarPesquisa && (
         <PesquisaOverlay

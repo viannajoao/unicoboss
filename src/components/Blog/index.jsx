@@ -56,7 +56,7 @@ function Blog() {
         <main className="articles">
           <div className="news-articles">
             {filteredArticles.slice(0, visibleArticles).map((item, index) => (
-              <Link className="links-articles" key={index} to={item.page}>
+              <Link onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })} className="links-articles" key={index} to={item.page}>
                 <News
                   title={item.title}
                   date={item.date}

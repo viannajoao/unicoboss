@@ -12,6 +12,13 @@ function NavBar({mudarEstado, open, isTransparent, onSearchClick}) {
 
   }
 
+  const scrollToFooter = () => {
+    const footerElement = document.getElementById("footer");
+    if (footerElement) {
+      footerElement.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+  
 
   return (
     <div className="container">
@@ -20,7 +27,7 @@ function NavBar({mudarEstado, open, isTransparent, onSearchClick}) {
           <img className="logo" src={logo} alt="Logotipo UnicoBoss" />
         </a>
         <ul className="links">
-          <li><Link to="/">Inicio</Link></li>
+          <li><Link to="/" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>Início</Link></li>
           <li className="dropdown">
             <a href="#">Gratis<span className="arrow">▼</span></a>
             <ul className="dropdown-content">
@@ -32,7 +39,7 @@ function NavBar({mudarEstado, open, isTransparent, onSearchClick}) {
           </li>
           <li><a href="#">Cursos</a></li>
           <li><Link to="/Blog">Blog</Link></li>
-          <li><a href="#">Contato</a></li>
+          <li><a onClick={scrollToFooter} >Contato</a></li>
           <li className="nav-icon"><i className="fas fa-search" onClick={onSearchClick}></i></li>
         </ul>
 

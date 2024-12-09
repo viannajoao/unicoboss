@@ -3,6 +3,7 @@ import backsidevideo from "../../assets/backsidevideo.mp4";
 import Information from "./Information";
 import { useState } from "react";
 
+
 const PrincipalScreen = () => {
 
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -14,10 +15,18 @@ const PrincipalScreen = () => {
     console.log(isSidebarOpen);
   };
 
+  const scrollToInformation = () => {
+    console.log("clicado") 
+    const informationElement = document.getElementById("information");
+    if (informationElement) {
+      informationElement.scrollIntoView({ behavior: "smooth" });
+    }
+    
+  };
 
   return (
     <>
-      <header className="banner">
+      <header id="home" className="banner">
         <div className="video-background">
           <video autoPlay loop muted playsInline>
             <source src={backsidevideo} type="video/mp4" />
@@ -26,9 +35,9 @@ const PrincipalScreen = () => {
           <div className="overlay"></div>
         </div>
 
-        <div className="circle" href={<Information />}>
+        <a className="circle" onClick={scrollToInformation}>
           <div className="arrow-down"></div>
-        </div>
+        </a>
 
         <div className="content">       
           <section className="layout-banner">
@@ -39,7 +48,7 @@ const PrincipalScreen = () => {
 
 
       </header>
-      <main>
+      <main >
         <Information />
       </main>
       {isSidebarOpen && <div className="overlay-mobile" onClick={toggleSidebar}></div>}

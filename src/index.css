@@ -37,4 +37,5 @@ html{
   font-family: "Roboto Condensed", sans-serif;
   color: var(--text-p);
   background-color: var(--bgDark800);
+  scroll-behavior: smooth;
 }

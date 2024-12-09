@@ -3,7 +3,6 @@ import "./Cards.scss";
 
 
 function Cards({ titulo, dicas, src }) {
-  console.log(src)
 
   const LiDicas = Object.values(dicas)
 

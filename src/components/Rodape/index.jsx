@@ -3,7 +3,7 @@ import logo from "../../assets/logotipo_semfundo_reduzida.png";
 
 function Rodape(){
   return (
-    <footer className="footer">
+    <footer id="footer" className="footer">
     <div className="footer-container">
       {/* Seção da Logo */}
       <div className="espace-logo">
