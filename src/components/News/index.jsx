@@ -7,7 +7,7 @@ function News({ title, date, photo, description }) {
       <div className="photo-frame">
         <img className="frame-logo" src={photo} alt="" />
       </div>
-      <div>
+      <div className="container-info">
         <span className="data-criacao">{date}</span>
         <h3 className="titulo">{title}</h3>
         <p className="description">{description}</p>
