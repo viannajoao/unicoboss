@@ -33,7 +33,9 @@ import EconomizarMercado from "./components/artigos/EconomizarMercado.jsx"
 import EmpreenderPoucoDinheiro from "./components/artigos/EmpreenderPoucoDinheiro.jsx"
 import TalentosEmDinheiro from "./components/artigos/TalentosEmDinheiro.jsx"
 import InvestirPoucoDinheiro from "./components/artigos/InvestirPoucoDinheiro.jsx"
-
+import AdmMicroempreendedor from "./components/artigos/AdmMicroempreendedor.jsx"
+import InvestirParaGanhar2000 from "./components/artigos/InvestirParaGanhar2000.jsx"
+import MindsetBaixaRenda from "./components/artigos/MindsetBaixaRenda.jsx"
 
 
 function App() {
@@ -80,6 +82,9 @@ function App() {
         <Route path='/Blog/empreenderComPoucoDinheiro' element={ <EmpreenderPoucoDinheiro />} />
         <Route path='/Blog/TalentosParaGerarRendaExtra' element={ <TalentosEmDinheiro />}/>
         <Route path='/Blog/investirComPoucoDinheiro' element={ <InvestirPoucoDinheiro />}/>
+        <Route path='/Blog/administracaoParaMicroempreendedores' element={ <AdmMicroempreendedor />}/>
+        <Route path='/Blog/investirParaGanhar2000'  element={ <InvestirParaGanhar2000 />}/>
+        <Route path='/Blog/mindsetParaBaixaRenda' element={ <MindsetBaixaRenda />}/>
       </Routes>
       {mostrarPesquisa && (
         <PesquisaOverlay

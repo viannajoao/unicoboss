@@ -179,6 +179,33 @@ let articles = [
     page: "/Blog/dropshipping",
     desc: "Descubra o que é dropshipping, suas vantagens, riscos e como iniciar um negócio online lucrativo em 2025.",
     category: "Dropshipping"
+  },
+  {
+    id: 21,
+    title: "Administração Financeira para Microempreendedores: Como Gerenciar o Dinheiro do Seu Negócio",
+    photo: "/images/",
+    date: "28 de Outubro de 2024",
+    page: "/Blog/administracaoParaMicroempreendedores",
+    desc: "Aprenda a gerenciar as finanças do seu pequeno negócio com este guia completo de administração financeira para microempreendedores. Organize suas contas, evite erros comuns e impulsione o sucesso da sua empresa.",
+    category: "Dropshipping"
+  },
+  {
+    id: 22,
+    title: "Os Melhores Investimentos para Quem Ganha Até R$ 2.000,00 por Mês",
+    photo: "/images/",
+    date: "29 de Outubro de 2024",
+    page: "/Blog/investirParaGanhar2000",
+    desc: "Descubra como investir com pouco dinheiro e construir um futuro financeiro mais sólido. Explore as melhores opções de investimento para quem ganha até R$ 2.000,00 por mês.",
+    category: "Investimento"
+  },
+  {
+    id: 23,
+    title: "Mindset Financeiro para Baixa Renda: Como Evitar Dívidas e Focar no Futuro",
+    photo: "/images/",
+    date: "29 de Outubro de 2024",
+    page: "/Blog/mindsetParaBaixaRenda",
+    desc: "Administrar o dinheiro com baixa renda pode ser desafiador, mas com o mindset correto, é possível evitar dívidas e construir um futuro financeiro estável. Aprenda como.",
+    category: "Investimento"
   }
 ]
 
