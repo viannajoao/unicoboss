@@ -133,16 +133,52 @@ let articles = [
     date: "11 de Dezembro de 2024",
     page: "/Blog/poupancaOuInvestimentos",
     desc: "Em um cenário econômico em constante transformação, a pergunta sobre onde alocar seu dinheiro se torna mais crucial do que nunca. Vamos explorar as nuances de cada alternativa para te ajudar a tomar a melhor decisão para o seu futuro financeiro.",
-    category: "Investimento"
+    category: "Investimentos"
   },
   {
-    id: 15,
+    id: 16,
     title: "Como Economizar no Mercado: Estratégias para Reduzir a Conta Sem Passar Fome",
     photo: "/images/",
     date: "11 de Dezembro de 2024",
     page: "/Blog/economizarNoMercadoSemPassarFome",
     desc: "Descubra estratégias práticas para economizar no mercado, reduzir seus gastos e manter uma alimentação de qualidade. Transforme pequenas economias em grandes resultados financeiros.",
     category: "Dicas Financeira"
+  },
+  {
+    id: 17,
+    title: "Empreender com Pouco Dinheiro: Ideias de Negócios para Começar com Menos de R$ 500,00",
+    photo: "/images/",
+    date: "06 de Dezembro de 2024",
+    page: "/Blog/empreenderComPoucoDinheiro",
+    desc: "Descubra ideias de negócios para começar com menos de R$ 500,00 no Brasil. Aprenda estratégias práticas para empreender com um orçamento limitado e alcançar o sucesso.",
+    category: "Empreendimento"
+  },
+  {
+    id: 18,
+    title: "Transforme seus Talentos em Dinheiro: Como Lucrar com Habilidades Simples",
+    photo: "/images/",
+    date: "04 de Dezembro de 2024",
+    page: "/Blog/TalentosParaGerarRendaExtra",
+    desc: "Descubra como transformar seus talentos e habilidades em uma fonte de renda. Aprenda a identificar oportunidades, calcular preços e divulgar seu trabalho para alcançar a liberdade financeira.",
+    category: "Renda Extra"
+  },
+  {
+    id: 19,
+    title: "Investindo com Pouco Dinheiro: Como Começar a Investir com Apenas R$ 30,00",
+    photo: "/images/",
+    date: "02 de Dezembro de 2024",
+    page: "/Blog/investirComPoucoDinheiro",
+    desc: "Aprenda a investir com pouco dinheiro no Brasil. Descubra opções acessíveis a partir de R$ 30,00, estratégias práticas e como transformar sua vida financeira.",
+    category: "Investimentos"
+  },
+  {
+    id: 20,
+    title: "Dropshipping: O Guia Completo para Iniciantes e Empreendedores em 2025",
+    photo: "/images/",
+    date: "28 de Outubro de 2024",
+    page: "/Blog/dropshipping",
+    desc: "Descubra o que é dropshipping, suas vantagens, riscos e como iniciar um negócio online lucrativo em 2025.",
+    category: "Dropshipping"
   }
 ]
 

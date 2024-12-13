@@ -29,6 +29,13 @@ import FundoEmergencia from "./components/artigos/FundoEmergencia.jsx"
 import PoupancaXInvestimento from "./components/artigos/poupancaXInvestimentos.jsx"
 import EconomizarMercado from "./components/artigos/EconomizarMercado.jsx"
 
+//novos artigos para conferir se foi criado os components React
+import EmpreenderPoucoDinheiro from "./components/artigos/EmpreenderPoucoDinheiro.jsx"
+import TalentosEmDinheiro from "./components/artigos/TalentosEmDinheiro.jsx"
+import InvestirPoucoDinheiro from "./components/artigos/InvestirPoucoDinheiro.jsx"
+
+
+
 function App() {
 
   const location = useLocation();
@@ -70,6 +77,9 @@ function App() {
         <Route path="/Blog/fundoDeEmergencia" element={ <FundoEmergencia />}/>
         <Route path='/Blog/poupancaOuInvestimentos' element={ <PoupancaXInvestimento />}/>
         <Route path='/Blog/economizarNoMercadoSemPassarFome' element={ <EconomizarMercado />}/>
+        <Route path='/Blog/empreenderComPoucoDinheiro' element={ <EmpreenderPoucoDinheiro />} />
+        <Route path='/Blog/TalentosParaGerarRendaExtra' element={ <TalentosEmDinheiro />}/>
+        <Route path='/Blog/investirComPoucoDinheiro' element={ <InvestirPoucoDinheiro />}/>
       </Routes>
       {mostrarPesquisa && (
         <PesquisaOverlay
