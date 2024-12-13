@@ -1,32 +1,142 @@
 {
+  "title": "O Guia Básico Sobre Criptomoedas: O Que São, Como Investir e Sua Relevância no Futuro",
+  "description": "Um guia completo sobre criptomoedas: o que são, como investir e sua importância no futuro do sistema financeiro.",
   "content": [
-    { "html": "<h1>O Guia Básico Sobre Criptomoedas: O Que São, Como Investir e Sua Relevância no Futuro</h1>" },
-    { "html": "<p>Criptomoedas têm ganhado destaque no mundo financeiro nos últimos anos, despertando curiosidade e, ao mesmo tempo, muitas dúvidas. Se você já se perguntou como funcionam, por que foram criadas e se vale a pena investir, este artigo foi feito para você. Vou abordar de forma detalhada e humanizada tudo o que você precisa saber para dar seus primeiros passos neste universo fascinante.</p>" },
-    { "html": "<h2>O Que São Criptomoedas?</h2>" },
-    { "html": "<p>Criptomoedas são moedas digitais baseadas em tecnologia de blockchain, que é como um livro de registros digital e descentralizado. Isso significa que as transações realizadas com criptomoedas não dependem de um banco central ou intermediários, mas são verificadas por uma rede de computadores ao redor do mundo.</p>" },
-    { "html": "<ul><li>Descentralização: Não pertencem a nenhum governo ou instituição financeira.</li><li>Segurança: Usam criptografia avançada para proteger as transações.</li><li>Transparência: Todas as transações são registradas na blockchain e podem ser verificadas.</li></ul>" },
-    { "html": "<p>O Bitcoin, criado em 2009 por um indivíduo ou grupo conhecido como Satoshi Nakamoto, foi a primeira criptomoeda. Desde então, surgiram milhares de outras moedas, como Ethereum, Binance Coin e Cardano, cada uma com funcionalidades específicas.</p>" },
-    { "html": "<h2>Por Que as Criptomoedas Foram Criadas?</h2>" },
-    { "html": "<p>A criação das criptomoedas teve como objetivo oferecer uma alternativa ao sistema financeiro tradicional, que muitas vezes é centralizado, caro e ineficiente. Entre as principais razões estão:</p>" },
-    { "html": "<ul><li>Liberdade Financeira: Eliminar a necessidade de intermediários como bancos.</li><li>Acessibilidade: Permitir que qualquer pessoa com acesso à internet participe do sistema financeiro global.</li><li>Transações Globais Rápidas: Tornar transferências internacionais mais baratas e ágeis.</li><li>Proteção Contra a Inflação: Algumas criptomoedas, como o Bitcoin, possuem oferta limitada, o que ajuda a preservar seu valor ao longo do tempo.</li></ul>" },
-    { "html": "<p>Além disso, a blockchain tem aplicações além das finanças, como em contratos inteligentes, jogos digitais e até rastreamento de cadeias de suprimentos.</p>" },
-    { "html": "<h2>Como Investir em Criptomoedas?</h2>" },
-    { "html": "<p>Investir em criptomoedas pode parecer complicado no início, mas com alguns passos simples, você pode começar sua jornada:</p>" },
-    { "html": "<h3>1. Eduque-se</h3>" },
-    { "html": "<p>Antes de investir, dedique tempo para entender o mercado. Leia sobre as principais criptomoedas, como funcionam as blockchains e como o mercado se comporta.</p>" },
-    { "html": "<h3>2. Escolha uma Corretora (Exchange) Confiável</h3>" },
-    { "html": "<p>As exchanges são plataformas onde você pode comprar e vender criptomoedas. Algumas das mais populares são:</p><ul><li>Binance</li><li>Coinbase</li><li>Mercado Bitcoin (no Brasil)</li></ul>" },
-    { "html": "<h3>3. Crie uma Carteira Digital</h3>" },
-    { "html": "<p>As criptomoedas compradas ficam armazenadas em carteiras digitais. Existem dois tipos principais:</p><ul><li>Carteiras Quentes (Hot Wallets): Conectadas à internet, práticas para transações rápidas.</li><li>Carteiras Frias (Cold Wallets): Armazenadas offline, mais seguras contra ataques.</li></ul>" },
-    { "html": "<h3>4. Diversifique</h3>" },
-    { "html": "<p>Assim como em qualquer investimento, é importante não colocar todos os ovos na mesma cesta. Considere investir em diferentes moedas para diluir os riscos.</p>" },
-    { "html": "<h3>5. Tenha Paciência</h3>" },
-    { "html": "<p>O mercado de criptomoedas é conhecido por sua volatilidade. Esteja preparado para oscilações de preço e invista apenas o que você pode perder.</p>" },
-    { "html": "<h2>Benefícios de Investir em Criptomoedas</h2>" },
-    { "html": "<p>1. Alto Potencial de Retorno: Embora arriscado, o mercado de criptomoedas já proporcionou ganhos significativos a muitos investidores.</p>" },
-    { "html": "<p>2. Acessibilidade: Diferente de outros investimentos, não é necessário ter grandes quantias para começar.</p>" },
-    { "html": "<p>3. Independência: Você tem controle total sobre seus ativos, sem depender de bancos ou governos.</p>" },
-    { "html": "<h2>Considerações Finais</h2>" },
-    { "html": "<p>Investir em criptomoedas pode ser uma jornada emocionante e lucrativa, mas exige estudo, planejamento e responsabilidade.</p>" }
+    {
+      "type": "h1",
+      "text": "O Guia Básico Sobre Criptomoedas: O Que São, Como Investir e Sua Relevância no Futuro"
+    },
+    {
+      "type": "p",
+      "text": "Criptomoedas têm ganhado destaque no mundo financeiro nos últimos anos, despertando curiosidade e, ao mesmo tempo, muitas dúvidas. Se você já se perguntou como funcionam, por que foram criadas e se vale a pena investir, este artigo foi feito para você. Vou abordar de forma detalhada e humanizada tudo o que você precisa saber para dar seus primeiros passos neste universo fascinante."
+    },
+    {
+      "type": "h2",
+      "text": "O Que São Criptomoedas?"
+    },
+    {
+      "type": "p",
+      "text": "Criptomoedas são moedas digitais baseadas em tecnologia de blockchain, que é como um livro de registros digital e descentralizado. Isso significa que as transações realizadas com criptomoedas não dependem de um banco central ou intermediários, mas são verificadas por uma rede de computadores ao redor do mundo."
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Descentralização: Não pertencem a nenhum governo ou instituição financeira.",
+        "Segurança: Usam criptografia avançada para proteger as transações.",
+        "Transparência: Todas as transações são registradas na blockchain e podem ser verificadas."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "O Bitcoin, criado em 2009 por um indivíduo ou grupo conhecido como Satoshi Nakamoto, foi a primeira criptomoeda. Desde então, surgiram milhares de outras moedas, como Ethereum, Binance Coin e Cardano, cada uma com funcionalidades específicas."
+    },
+    {
+      "type": "h2",
+      "text": "Por Que as Criptomoedas Foram Criadas?"
+    },
+    {
+      "type": "p",
+      "text": "A criação das criptomoedas teve como objetivo oferecer uma alternativa ao sistema financeiro tradicional, que muitas vezes é centralizado, caro e ineficiente. Entre as principais razões estão:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Liberdade Financeira: Eliminar a necessidade de intermediários como bancos.",
+        "Acessibilidade: Permitir que qualquer pessoa com acesso à internet participe do sistema financeiro global.",
+        "Transações Globais Rápidas: Tornar transferências internacionais mais baratas e ágeis.",
+        "Proteção Contra a Inflação: Algumas criptomoedas, como o Bitcoin, possuem oferta limitada, o que ajuda a preservar seu valor ao longo do tempo."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Além disso, a blockchain tem aplicações além das finanças, como em contratos inteligentes, jogos digitais e até rastreamento de cadeias de suprimentos."
+    },
+    {
+      "type": "h2",
+      "text": "Como Investir em Criptomoedas?"
+    },
+    {
+      "type": "p",
+      "text": "Investir em criptomoedas pode parecer complicado no início, mas com alguns passos simples, você pode começar sua jornada:"
+    },
+    {
+      "type": "h3",
+      "text": "1. Eduque-se"
+    },
+    {
+      "type": "p",
+      "text": "Antes de investir, dedique tempo para entender o mercado. Leia sobre as principais criptomoedas, como funcionam as blockchains e como o mercado se comporta."
+    },
+    {
+      "type": "h3",
+      "text": "2. Escolha uma Corretora (Exchange) Confiável"
+    },
+    {
+      "type": "p",
+      "text": "As exchanges são plataformas onde você pode comprar e vender criptomoedas. Algumas das mais populares são:"
+    },
+      {
+      "type": "ul",
+      "items": [
+        "Binance",
+        "Coinbase",
+         "Mercado Bitcoin (no Brasil)"
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "3. Crie uma Carteira Digital"
+    },
+    {
+      "type": "p",
+      "text": "As criptomoedas compradas ficam armazenadas em carteiras digitais. Existem dois tipos principais:"
+    },
+        {
+      "type": "ul",
+      "items": [
+       "Carteiras Quentes (Hot Wallets): Conectadas à internet, práticas para transações rápidas.",
+       "Carteiras Frias (Cold Wallets): Armazenadas offline, mais seguras contra ataques."
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "4. Diversifique"
+    },
+    {
+      "type": "p",
+      "text": "Assim como em qualquer investimento, é importante não colocar todos os ovos na mesma cesta. Considere investir em diferentes moedas para diluir os riscos."
+    },
+    {
+      "type": "h3",
+      "text": "5. Tenha Paciência"
+    },
+    {
+      "type": "p",
+      "text": "O mercado de criptomoedas é conhecido por sua volatilidade. Esteja preparado para oscilações de preço e invista apenas o que você pode perder."
+    },
+    {
+      "type": "h2",
+      "text": "Benefícios de Investir em Criptomoedas"
+    },
+    {
+      "type": "p",
+      "text": "1. Alto Potencial de Retorno: Embora arriscado, o mercado de criptomoedas já proporcionou ganhos significativos a muitos investidores."
+    },
+    {
+      "type": "p",
+      "text": "2. Acessibilidade: Diferente de outros investimentos, não é necessário ter grandes quantias para começar."
+    },
+    {
+      "type": "p",
+      "text": "3. Independência: Você tem controle total sobre seus ativos, sem depender de bancos ou governos."
+    },
+    {
+      "type": "h2",
+      "text": "Considerações Finais"
+    },
+    {
+      "type": "p",
+      "text": "Investir em criptomoedas pode ser uma jornada emocionante e lucrativa, mas exige estudo, planejamento e responsabilidade."
+    }
   ]
 }

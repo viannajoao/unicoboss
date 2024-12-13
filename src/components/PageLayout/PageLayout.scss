@@ -11,26 +11,23 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 2rem;
-
-
+    padding: 10px;
   }
 
   .main-content {
     display: flex;
     flex: 3;
-    //padding: 0 2rem;
-    //padding-left: 4rem;
+    padding: 0px 10px;
 
     h1 {
       margin-bottom: 2rem;
-      font-size: 34px;
+      font-size: clamp(24px, 1.8vw, 42px);
     }
 
     h2 {
       margin-top: 20px;
       margin-bottom: 10px;
-      font-size: 26px;
+      font-size: clamp(18px, 1.5vw, 24px);
       display: inline-block;
       color: #FFF;
     }
@@ -40,10 +37,9 @@
       margin-bottom: 10px;
     }
 
-    p {
-      font-size: 1.2rem;
-      //margin-bottom: 1.5rem;
-      line-height: 22px;
+    .page-text {
+      font-size: clamp(14px, 1.3vw, 18px);
+      margin-bottom: 20px;
       color: rgb(228, 224, 224);
     }
 
@@ -120,7 +116,7 @@ ul{
 li{
   margin-bottom: 5px;
   margin-left: 10px;
-  font-size: 16px;
+  font-size: clamp(15px, 1.1vw, 24px);
   font-style: italic;
 
 
@@ -131,42 +127,6 @@ li{
   }
 }
 
-/*
-
-.reference-articles{
-  max-width: 100%;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  flex-wrap: wrap;
-  padding: 2rem;
-  margin-top: 100px;
-
-  h4{
-    font-size: 30px;
-    margin-left: 15px;
-  }
-
-  a{
-    text-decoration: none;
-    color: #ffffff;
-  }
-
-
-  .links-articles{
-    max-width: 600px;
-    
-  }
-
-  .other-articles{
-    display: flex;
-    gap: 30px;
-    flex-wrap: wrap;
-  
-  }
-}
-
-*/
 
 .reference-articles {
   margin-top: 20px;
@@ -197,7 +157,9 @@ li{
   background-color: #45a049;
 }
 
-
+strong{
+  
+}
 
 
 @media screen and (max-width: 1071px) {

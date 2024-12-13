@@ -116,6 +116,33 @@ let articles = [
     page: "/Blog/cartaoCreditoComoUsar",
     desc: "O cartão de crédito é uma ferramenta poderosa no dia a dia financeiro, especialmente no Brasil, onde ele pode facilitar compras, oferecer benefícios e até ajudar a organizar as finanças.",
     category: "Dicas Financeira"
+  },
+  {
+    id: 14,
+    title: "Como Criar um Fundo de Emergência Ganhando Salário Mínimo",
+    photo: "/images/",
+    date: "12 de Dezembro de 2024",
+    page: "/Blog/fundoDeEmergencia",
+    desc: "Descubra como construir um fundo de emergência mesmo com recursos limitados. Aprenda passos práticos, dicas para economizar e estratégias para alcançar segurança financeira.",
+    category: "Dicas Financeira"
+  },
+  {
+    id: 15,
+    title: "Poupança x Investimentos: Qual a Melhor Opção para Seu Dinheiro em 2024?",
+    photo: "/images/",
+    date: "11 de Dezembro de 2024",
+    page: "/Blog/poupancaOuInvestimentos",
+    desc: "Em um cenário econômico em constante transformação, a pergunta sobre onde alocar seu dinheiro se torna mais crucial do que nunca. Vamos explorar as nuances de cada alternativa para te ajudar a tomar a melhor decisão para o seu futuro financeiro.",
+    category: "Investimento"
+  },
+  {
+    id: 15,
+    title: "Como Economizar no Mercado: Estratégias para Reduzir a Conta Sem Passar Fome",
+    photo: "/images/",
+    date: "11 de Dezembro de 2024",
+    page: "/Blog/economizarNoMercadoSemPassarFome",
+    desc: "Descubra estratégias práticas para economizar no mercado, reduzir seus gastos e manter uma alimentação de qualidade. Transforme pequenas economias em grandes resultados financeiros.",
+    category: "Dicas Financeira"
   }
 ]
 

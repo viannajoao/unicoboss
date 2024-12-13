@@ -1,20 +1,18 @@
 .sidebar {
   flex: 1;
   height: 100vh;
-  padding: 1rem;
   border-radius: 8px;
   //background-color: red;
 }
 
 .sidebar-left {
   display: flex;
- 
+  //background-color: red;
 }
 
 .sidebar-right {
   display: flex;
-  margin-right: 10px;
-  background-color: red;
+  //background-color: red;
   max-width: 300px;
 }
 

@@ -1,35 +1,123 @@
 {
+  "title": "",
+  "description": "",
   "content": [
-    {"html": "<h1>12 Ideias Acessíveis para Renda Extra: Comece Agora e Veja Resultados!</h1>"},
-    {"html": "<p>Com a crescente busca por novas formas de gerar renda, muitas pessoas estão procurando alternativas que possam ser iniciadas sem altos investimentos ou habilidades complexas. Aqui vamos apresentar 12 ideias acessíveis para quem deseja começar uma renda extra de maneira prática e eficaz.</p>"},
-    {"html": "<img id='img-default' src='/images/rendaExtra/12Dicas_capa.png' alt='Imagem de capa para artigo sobre renda extra' />"},
-    {"html": "<h2>1. Vendas de Produtos Caseiros</h2>"},
-    {"html": "<p>A produção de alimentos como bolos, biscoitos e doces pode ser uma excelente fonte de renda. Além disso, são itens sempre procurados, especialmente em datas comemorativas. Considere vender para conhecidos, em feiras locais ou até pelas redes sociais.</p>"},
-    {"html": "<h2>2. Trabalhos Freelance Online</h2>"},
-    {"html": "<p>Se você possui habilidades específicas, como design gráfico, escrita ou programação, plataformas de freelancing podem ser uma fonte valiosa de renda. Sites como Upwork e Freelancer conectam freelancers a clientes do mundo todo.</p>"},
-    {"html": "<img src='/images/renda_extra_meio1.png' alt='Ilustração representando trabalho freelance e venda de produtos caseiros' />"},
-    {"html": "<h2>3. Aulas Particulares</h2>"},
-    {"html": "<p>Se você tem conhecimento em algum assunto específico, como matemática ou idiomas, considere oferecer aulas particulares. A demanda por tutores qualificados é constante, e você pode ensinar tanto presencialmente quanto online.</p>"},
-    {"html": "<h2>4. Cuidado com Animais de Estimação</h2>"},
-    {"html": "<p>Para os amantes de animais, oferecer serviços de pet-sitting ou passeios com cachorros pode ser uma opção de renda extra divertida e flexível.</p>"},
-    {"html": "<img src='/images/renda_extra_meio2.png' alt='Ilustração com atividades de renda extra como cuidados com animais e aulas particulares' />"},
-    {"html": "<h2>5. Revenda de Produtos</h2>"},
-    {"html": "<p>Comprar produtos em atacado e revender é uma maneira de gerar lucro. Desde roupas até acessórios eletrônicos, você pode encontrar nichos específicos para vender com sucesso.</p>"},
-    {"html": "<h2>6. Artesanato e Decoração</h2>"},
-    {"html": "<p>Para quem gosta de trabalhos manuais, vender artesanato pode ser uma maneira recompensadora de obter renda. Peças personalizadas, como bijuterias e itens de decoração, são sempre valorizadas.</p>"},
-    {"html": "<h2>7. Cuidados com Jardins</h2>"},
-    {"html": "<p>Ofereça serviços de jardinagem para quem tem pouco tempo ou habilidade para cuidar do próprio jardim. Esta é uma atividade que requer pouco investimento inicial.</p>"},
-    {"html": "<h2>8. Venda de Fotografias</h2>"},
-    {"html": "<p>Para quem gosta de fotografia, vender imagens para bancos de fotos como Shutterstock ou Adobe Stock pode ser uma boa fonte de renda passiva.</p>"},
-    {"html": "<h2>9. Personalização de Produtos</h2>"},
-    {"html": "<p>Itens personalizados, como camisetas ou canecas com estampas únicas, estão em alta. Considere oferecer personalizações de produtos como forma de diferenciação.</p>"},
-    {"html": "<h2>10. Participação em Pesquisas de Mercado</h2>"},
-    {"html": "<p>Muitas empresas buscam a opinião dos consumidores para aprimorar produtos e pagam por isso. Inscreva-se em sites de pesquisas pagas para começar a ganhar dinheiro com suas respostas.</p>"},
-    {"html": "<h2>11. Serviços de Assistência Virtual</h2>"},
-    {"html": "<p>Auxiliar profissionais com tarefas administrativas remotamente é uma oportunidade crescente e que pode se ajustar bem a horários flexíveis.</p>"},
-    {"html": "<h2>12. Aluguel de Produtos</h2>"},
-    {"html": "<p>Se você possui itens como câmeras, ferramentas ou roupas de festa, pode alugá-los para pessoas que precisam de algo temporário, gerando renda sem vender.</p>"},
-    {"html": "<p>Gostou dessas ideias e quer saber mais? Clique no botão abaixo para ter acesso a um curso completo que vai te ensinar como transformar essas sugestões em fontes rentáveis de renda extra.</p>"},
-    {"html": "<div class='toBuy'><a href='https://go.hotmart.com/N96109591R'>Clique aqui para conhecer nosso curso completo de Renda Extra!</a></div>"}
+    {
+      "type": "h2",
+      "text": "12 Ideias Acessíveis para Renda Extra: Comece Agora e Veja Resultados!"
+    },
+    {
+      "type": "p",
+      "text": "Com a crescente busca por novas formas de gerar renda, muitas pessoas estão procurando alternativas que possam ser iniciadas sem altos investimentos ou habilidades complexas. Aqui vamos apresentar 12 ideias acessíveis para quem deseja começar uma renda extra de maneira prática e eficaz."
+    },
+    {
+      "type": "img",
+      "src": "/images/rendaExtra/12Dicas_capa.png",
+      "alt": "Imagem de capa para artigo sobre renda extra",
+      "caption": ""
+    },
+    {
+      "html": "<h2>1. Vendas de Produtos Caseiros</h2>"
+    },
+    {
+      "type": "p",
+      "text": "A produção de alimentos como bolos, biscoitos e doces pode ser uma excelente fonte de renda. Além disso, são itens sempre procurados, especialmente em datas comemorativas. Considere vender para conhecidos, em feiras locais ou até pelas redes sociais."
+    },
+    {
+      "html": "<h2>2. Trabalhos Freelance Online</h2>"
+    },
+    {
+      "type": "p",
+      "text": "Se você possui habilidades específicas, como design gráfico, escrita ou programação, plataformas de freelancing podem ser uma fonte valiosa de renda. Sites como Upwork e Freelancer conectam freelancers a clientes do mundo todo."
+    },
+    {
+      "type": "img",
+      "src": "/images/renda_extra_meio1.png",
+      "alt": "Ilustração representando trabalho freelance e venda de produtos caseiros",
+      "caption": ""
+    },
+    {
+      "html": "<h2>3. Aulas Particulares</h2>"
+    },
+    {
+      "type": "p",
+      "text": "Se você tem conhecimento em algum assunto específico, como matemática ou idiomas, considere oferecer aulas particulares. A demanda por tutores qualificados é constante, e você pode ensinar tanto presencialmente quanto online."
+    },
+    {
+      "html": "<h2>4. Cuidado com Animais de Estimação</h2>"
+    },
+    {
+      "type": "p",
+      "text": "Para os amantes de animais, oferecer serviços de pet-sitting ou passeios com cachorros pode ser uma opção de renda extra divertida e flexível."
+    },
+    {
+      "type": "img",
+      "src": "/images/renda_extra_meio2.png",
+      "alt": "Ilustração com atividades de renda extra como cuidados com animais e aulas particulares",
+      "caption": ""
+    },
+    {
+      "html": "<h2>5. Revenda de Produtos</h2>"
+    },
+    {
+      "type": "p",
+      "text": "Comprar produtos em atacado e revender é uma maneira de gerar lucro. Desde roupas até acessórios eletrônicos, você pode encontrar nichos específicos para vender com sucesso."
+    },
+    {
+      "html": "<h2>6. Artesanato e Decoração</h2>"
+    },
+    {
+      "type": "p",
+      "text": "Para quem gosta de trabalhos manuais, vender artesanato pode ser uma maneira recompensadora de obter renda. Peças personalizadas, como bijuterias e itens de decoração, são sempre valorizadas."
+    },
+    {
+      "html": "<h2>7. Cuidados com Jardins</h2>"
+    },
+    {
+      "type": "p",
+      "text": "Ofereça serviços de jardinagem para quem tem pouco tempo ou habilidade para cuidar do próprio jardim. Esta é uma atividade que requer pouco investimento inicial."
+    },
+    {
+      "html": "<h2>8. Venda de Fotografias</h2>"
+    },
+    {
+      "type": "p",
+      "text": "Para quem gosta de fotografia, vender imagens para bancos de fotos como Shutterstock ou Adobe Stock pode ser uma boa fonte de renda passiva."
+    },
+    {
+      "html": "<h2>9. Personalização de Produtos</h2>"
+    },
+    {
+      "type": "p",
+      "text": "Itens personalizados, como camisetas ou canecas com estampas únicas, estão em alta. Considere oferecer personalizações de produtos como forma de diferenciação."
+    },
+    {
+      "html": "<h2>10. Participação em Pesquisas de Mercado</h2>"
+    },
+    {
+      "type": "p",
+      "text": "Muitas empresas buscam a opinião dos consumidores para aprimorar produtos e pagam por isso. Inscreva-se em sites de pesquisas pagas para começar a ganhar dinheiro com suas respostas."
+    },
+    {
+      "html": "<h2>11. Serviços de Assistência Virtual</h2>"
+    },
+    {
+      "type": "p",
+      "text": "Auxiliar profissionais com tarefas administrativas remotamente é uma oportunidade crescente e que pode se ajustar bem a horários flexíveis."
+    },
+    {
+      "html": "<h2>12. Aluguel de Produtos</h2>"
+    },
+    {
+      "type": "p",
+      "text": "Se você possui itens como câmeras, ferramentas ou roupas de festa, pode alugá-los para pessoas que precisam de algo temporário, gerando renda sem vender."
+    },
+    {
+      "type": "p",
+      "text": "Gostou dessas ideias e quer saber mais? Clique no botão abaixo para ter acesso a um curso completo que vai te ensinar como transformar essas sugestões em fontes rentáveis de renda extra."
+    },
+    {
+      "html": "<div class='toBuy'><a href='https://go.hotmart.com/N96109591R'>Clique aqui para conhecer nosso curso completo de Renda Extra!</a></div>"
+    }
   ]
 }

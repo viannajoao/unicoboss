@@ -3,29 +3,31 @@ import { Analytics } from "@vercel/analytics/react"
 import './App.css'
 import PrincipalScreen from './components/PrincipalScreen'
 import Rodape from './components/Rodape'
-import Panetones from './pages/Panetones'
+import Panetones from './components/artigos/panetones.jsx'
 import Blog from './components/Blog'
-import RendaExtra from './pages/RendaExtra'
+import RendaExtra from './components/artigos/rendaExtra.jsx'
 import NavBar from './components/NavBar'
 import { useState } from 'react'
-import Investimentos from './pages/Investimentos'
-import Criptomoeda from './pages/Criptomoeda'
+import Investimentos from './components/artigos/investimento.jsx'
+import Criptomoeda from './components/artigos/criptomoeda.jsx'
 import PesquisaOverlay from './components/Search'
 import articles from './artigos/json/sugestoes/sugestoes.js'
 import PrivacyPolicy from './pages/PoliticaDePrivacidade/index.jsx'
-import Dropshipping from './pages/Dropshipping/index.jsx'
-import AboutUs from './components/AboutUs/index.jsx'
-import SairDaProbreza from './pages/10Dicas/index.jsx'
-import GastarInteligente from './pages/GastarInteligente/index.jsx'
+import Dropshipping from './components/artigos/dropshipping.jsx'
+import AboutUs from './pages/AboutUs/index.jsx'
+import SairDaProbreza from './components/artigos/SairDaPobreza.jsx'
+import GastarInteligente from './components/artigos/gastarInteligente.jsx'
 import NotFound from './components/NotFound/index.jsx'
-import EnriquecerSalarioMinimo from './pages/EnriquecerSalarioMinimo/index.jsx'
-import RendaExtraSemSairDeCasa from './pages/RendaExtraSemSairDeCasa/index.jsx'
-import EmpreenderNoBrasil from './pages/EmpreenderBrasil/index.jsx'
-import MindsetEnriquecer from './pages/MindsetEnriquecer/index.jsx'
-import PlanejamentoFinanceiro from './pages/PlanejamentoFinanceiro/index.jsx'
-import FundosImobiliarios from './pages/PlanejamentoFinanceiro/index.jsx'
-import CartaoCredito from './pages/CartaoCredito/index.jsx'
-
+import EnriquecerSalarioMinimo from './components/artigos/enriquecerSalarioMinimo.jsx'
+import RendaExtraSemSairDeCasa from './components/artigos/RendaExtraSemSairDeCasa.jsx'
+import EmpreenderNoBrasil from './components/artigos/empreenderNoBrasil.jsx'
+import MindsetEnriquecer from './components/artigos/mindsetEnriquecer.jsx'
+import PlanejamentoFinanceiro from './components/artigos/planejamentoFinanceiro.jsx'
+import FundosImobiliarios from './components/artigos/fundosImobiliarios.jsx'
+import CartaoCredito from './components/artigos/cartaoCredito.jsx'
+import FundoEmergencia from "./components/artigos/FundoEmergencia.jsx"
+import PoupancaXInvestimento from "./components/artigos/poupancaXInvestimentos.jsx"
+import EconomizarMercado from "./components/artigos/EconomizarMercado.jsx"
 
 function App() {
 
@@ -65,6 +67,9 @@ function App() {
         <Route path='/Blog/planejamentoFinanceiro2025' element={ <PlanejamentoFinanceiro />}/>
         <Route path='/Blog/fundosImobiliariosParaGerarRendaPassiva' element={<FundosImobiliarios />}/>
         <Route path='/Blog/cartaoCreditoComoUsar' element={<CartaoCredito />}/>
+        <Route path="/Blog/fundoDeEmergencia" element={ <FundoEmergencia />}/>
+        <Route path='/Blog/poupancaOuInvestimentos' element={ <PoupancaXInvestimento />}/>
+        <Route path='/Blog/economizarNoMercadoSemPassarFome' element={ <EconomizarMercado />}/>
       </Routes>
       {mostrarPesquisa && (
         <PesquisaOverlay
