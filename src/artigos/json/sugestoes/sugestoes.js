@@ -20,7 +20,7 @@ let articles = [
   {
     id: 3,
     title: "Criptomoeda",
-    photo: "/images/comoGanharDinheiroNovembro/comoGanharDinheiroNovembro_capa.png",
+    photo: "/images/Criptomoeda/Criptomoeda_capa.webp",
     date: "19 de Novembro de 2024",
     page: "/Blog/Criptomoeda",
     desc: "Conheça a moeda do futuro e aprenda como investir e conquistar a sua também !",
@@ -48,7 +48,7 @@ let articles = [
   {
     id: 6,
     title: "Como Gastar Seu Dinheiro de Forma Inteligente",
-    photo: "/images/",
+    photo: "/images/ComoGastarDinheiroInteligente/ComoGastarDinheiroInteligente_capa.webp",
     date: "05 de Dezembro de 2024",
     page: "/Blog/ComoGastarDinheiroInteligente",
     desc: "Gastar dinheiro de forma inteligente é mais do que evitar compras desnecessárias.",
@@ -57,7 +57,7 @@ let articles = [
   {
     id: 7,
     title: "Como Construir Riqueza com Salário Mínimo",
-    photo: "/images/",
+    photo: "/images/enriquecerComSalarioMinimo/enriquecerComSalarioMinimo_capa.webp",
     date: "07 de Dezembro de 2024",
     page: "/Blog/enriquecerComSalarioMinimo",
     desc: "Este artigo vai mostrar que, mesmo com recursos limitados, você pode trilhar um caminho para melhorar sua vida financeira",
@@ -174,7 +174,7 @@ let articles = [
   {
     id: 20,
     title: "Dropshipping: O Guia Completo para Iniciantes e Empreendedores em 2025",
-    photo: "/images/",
+    photo: "/images/dropshipping/dropshipping_capa.png",
     date: "28 de Outubro de 2024",
     page: "/Blog/dropshipping",
     desc: "Descubra o que é dropshipping, suas vantagens, riscos e como iniciar um negócio online lucrativo em 2025.",
@@ -183,7 +183,7 @@ let articles = [
   {
     id: 21,
     title: "Administração Financeira para Microempreendedores: Como Gerenciar o Dinheiro do Seu Negócio",
-    photo: "/images/",
+    photo: "/images/administracaoParaMicroempreendedores/administracaoParaMicroempreendedores.png",
     date: "28 de Outubro de 2024",
     page: "/Blog/administracaoParaMicroempreendedores",
     desc: "Aprenda a gerenciar as finanças do seu pequeno negócio com este guia completo de administração financeira para microempreendedores. Organize suas contas, evite erros comuns e impulsione o sucesso da sua empresa.",
@@ -192,20 +192,20 @@ let articles = [
   {
     id: 22,
     title: "Os Melhores Investimentos para Quem Ganha Até R$ 2.000,00 por Mês",
-    photo: "/images/",
+    photo: "/images/InvestirParaGanhar2000/investirParaGanhar2000_capa2.png",
     date: "29 de Outubro de 2024",
     page: "/Blog/investirParaGanhar2000",
     desc: "Descubra como investir com pouco dinheiro e construir um futuro financeiro mais sólido. Explore as melhores opções de investimento para quem ganha até R$ 2.000,00 por mês.",
-    category: "Investimento"
+    category: "Investimentos"
   },
   {
     id: 23,
     title: "Mindset Financeiro para Baixa Renda: Como Evitar Dívidas e Focar no Futuro",
-    photo: "/images/",
+    photo: "/images/MindsetBaixaRenda/mindsetBaixaRenda.png",
     date: "29 de Outubro de 2024",
     page: "/Blog/mindsetParaBaixaRenda",
     desc: "Administrar o dinheiro com baixa renda pode ser desafiador, mas com o mindset correto, é possível evitar dívidas e construir um futuro financeiro estável. Aprenda como.",
-    category: "Investimento"
+    category: "Investimentos"
   }
 ]
 
