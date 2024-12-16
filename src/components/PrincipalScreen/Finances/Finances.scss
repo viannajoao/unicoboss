@@ -17,7 +17,6 @@
 .info-finance{
   display: flex;
   justify-content: center;
-  //background-color: #FFF;
   picture{
     width: 400px;
     margin-right: 20px;
@@ -40,4 +39,14 @@
   }
 
 
+}
+
+@media screen and (max-width: 768px){
+  .info-finance{
+    flex-wrap: wrap;
+
+    p{
+      margin-top: 20px;
+    }
+  }
 }

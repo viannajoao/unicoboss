@@ -66,7 +66,7 @@ let articles = [
   {
     id: 8,
     title: "Renda Extra Sem Sair de Casa",
-    photo: "/images/",
+    photo: "/images/RendaExtraEmCasa/rendaEmCasa_capa.webp",
     date: "07 de Dezembro de 2024",
     page: "/Blog/rendaExtraSemSairDeCasa",
     desc: "A ideia de ganhar renda extra sem sair de casa é cada vez mais atrativa para os brasileiros.",
@@ -75,7 +75,7 @@ let articles = [
   {
     id: 9,
     title: "Empreender no Brasil: Como Abrir seu Negócio e Alavancar sua Renda",
-    photo: "/images/",
+    photo: "/images/empreenderNoBrasil/empreenderNoBrasil.webp",
     date: "09 de Dezembro de 2024",
     page: "/Blog/comoEmpreenderNoBrasil",
     desc: "O empreendedorismo no Brasil tem se tornado uma alternativa cada vez mais procurada por pessoas que desejam independência financeira",
@@ -84,7 +84,7 @@ let articles = [
   {
     id: 10,
     title: "Como Mudar Sua Mentalidade e Atingir Seus Objetivos Financeiros",
-    photo: "/images/",
+    photo: "/images/mindsetParaGanharDinheiro/mindsetParaGanharDinheiro.webp",
     date: "05 de Dezembro de 2024",
     page: "/Blog/mindsetParaEnriquecer",
     desc: "Vamos explorar o conceito de mindset financeiro, como ele pode impactar suas finanças e quais passos você pode tomar para reprogramar sua mente.",
@@ -93,7 +93,7 @@ let articles = [
   {
     id: 11,
     title: "Como Criar um Planejamento Financeiro Pessoal e Organizar Suas Finanças em 2025",
-    photo: "/images/",
+    photo: "/images/planejamentoFinanceiro/planejamentoFinanceiro.webp",
     date: "03 de Dezembro de 2024",
     page: "/Blog/planejamentoFinanceiro2025",
     desc: "O planejamento financeiro pessoal é uma ferramenta essencial para quem deseja alcançar estabilidade.",
@@ -102,7 +102,7 @@ let articles = [
   {
     id: 12,
     title: "Fundos Imobiliários para Gerar Renda Passiva",
-    photo: "/images/",
+    photo: "/images/fundosImobiliario/fundosImobiliarios_capa.webp",
     date: "19 de Novembro de 2024",
     page: "/Blog/fundosImobiliariosParaGerarRendaPassiva",
     desc: "Gerar renda passiva é o sonho de muitos brasileiros que buscam liberdade financeira e uma vida mais tranquila.",
@@ -111,7 +111,7 @@ let articles = [
   {
     id: 13,
     title: "Cartão de Crédito: Como Usar com Sabedoria para Ganhar Benefícios e Evitar Juros Altos",
-    photo: "/images/",
+    photo: "/images/cartaoDeCredito/cartaoDeCredito_capa.webp",
     date: "08 de Dezembro de 2024",
     page: "/Blog/cartaoCreditoComoUsar",
     desc: "O cartão de crédito é uma ferramenta poderosa no dia a dia financeiro, especialmente no Brasil, onde ele pode facilitar compras, oferecer benefícios e até ajudar a organizar as finanças.",
