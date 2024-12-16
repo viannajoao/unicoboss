@@ -2,6 +2,7 @@ import "./PrincipalScreen.scss";
 import backsidevideo from "../../assets/backsidevideo.mp4";
 import Information from "./Information";
 import { useState } from "react";
+import Finance from "./Finances";
 
 
 const PrincipalScreen = () => {
@@ -50,6 +51,7 @@ const PrincipalScreen = () => {
       </header>
       <main >
         <Information />
+        <Finance />
       </main>
       {isSidebarOpen && <div className="overlay-mobile" onClick={toggleSidebar}></div>}
     </>

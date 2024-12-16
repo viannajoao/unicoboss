@@ -1,0 +1,43 @@
+.container-finance{
+  margin-top: 100px;
+  margin-bottom: 150px;
+  padding: 20px;
+  border-top: 1px solid #383838;
+  //background-color: red;
+
+  h2{
+    color: #FFF;
+    font-size: 42px;
+    margin-left: 5%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+}
+
+.info-finance{
+  display: flex;
+  justify-content: center;
+  //background-color: #FFF;
+  picture{
+    width: 400px;
+    margin-right: 20px;
+    border-radius: 8px;
+    
+    img{
+      width: 100%;
+      border-radius: 8px;
+      box-shadow: 25px 15px 10px rgb(255, 255, 255);
+    }
+  }
+
+  p{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 700px;
+    font-size: clamb(14px, 1.2rem, 18px);
+    padding: 10px 10px 100px 30px;
+    align-items: center;
+  }
+
+
+}
