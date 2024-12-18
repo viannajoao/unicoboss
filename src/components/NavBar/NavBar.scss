@@ -1,23 +1,23 @@
-.container{
+.container {
   position: relative;
 }
 
 .navbar-default {
   width: 100%;
   max-height: 80px;
-  color: #FFF;
+  color: #fff;
   display: flex;
   justify-content: space-around;
   align-items: center;
   border-bottom: 1px solid #cccccc50;
   z-index: 8;
 
-  &.solid{
+  &.solid {
     background-color: #121212;
     position: fixed;
   }
 
-  &.transparent{
+  &.transparent {
     background-color: rgba(0, 0, 0, 0);
     position: absolute;
     z-index: 8;
@@ -26,7 +26,6 @@
   .logo {
     width: auto;
     height: 80px;
-    //margin-bottom: 10px
   }
 
   .links {
@@ -36,13 +35,13 @@
     display: none;
     gap: 2rem;
 
-    li{
+    li {
       position: relative;
     }
 
-    a {
+    .link {
       text-decoration: none;
-      color: #FFF;
+      color: #fff;
       transition: color 0.3s ease-in-out;
       font-weight: bold;
       padding: 0px 1.5rem;
@@ -50,24 +49,24 @@
       display: inline-block;
 
       &::after {
-        content: '';
+        content: "";
         position: absolute;
         left: 0;
         bottom: -5px;
         width: 0%;
         height: 2px;
-        background-color: #F7D488;
+        background-color: #f7d488;
         transition: width 0.4s ease-in-out;
       }
 
       &:hover {
-        color: #F7D488;
+        color: #f7d488;
 
-        &:after {
+        &::after {
           width: 100%;
         }
       }
-    } 
+    }
 
     .arrow {
       margin-left: 5px;
@@ -83,31 +82,34 @@
       box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
       z-index: 3;
 
-      li {
-        padding: 10px;
-        text-align: left;
-        list-style: none;
+       /* Adicionado para mobile */
+      &.visible {
+        display: block;
       }
 
-      a{
-        color: #FFF; /* Ajuste para a cor desejada */
+      span {
+        color: grey;
+        padding: 10px;
+        display: block;
+      }
+
+      a {
+        color: #fff;
         text-decoration: none;
         display: block;
         padding: 10px 20px;
-      }
 
-      a:hover{
-        background-color: #575757;
+        &:hover {
+          background-color: #575757;
+        }
       }
     }
 
-    /* Mostrar o submenu ao passar o mouse sobre o link "Grátis" */
     .dropdown:hover .dropdown-content {
       display: block;
     }
   }
 }
-
 
 .bottom-navbar {
   display: flex;
@@ -141,8 +143,8 @@
   text-decoration: none;
   cursor: pointer;
 
-  &:hover{
-    color: #F7D488;
+  &:hover {
+    color: #f7d488;
   }
 }
 
@@ -165,15 +167,11 @@
   z-index: 1000;
 }
 
-
 .sidebar-container.open {
-  left: 0; 
+  left: 0;
 }
 
-
-.sidebar-container{
-
-.close-btn {
+.sidebar-container .close-btn {
   align-self: flex-end;
   font-size: 24px;
   background: none;
@@ -182,14 +180,11 @@
   cursor: pointer;
   margin-bottom: 20px;
 }
-}
 
-.sidebar-nav{
+.sidebar-nav {
   display: flex;
   flex-direction: column;
-
 }
-
 
 .sidebar-nav a {
   text-decoration: none;
@@ -198,13 +193,86 @@
   font-size: 18px;
   transition: background 0.3s ease;
   cursor: pointer;
+  position: relative; /* Adicionado para posicionar o ::after */
+
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0%;
+    height: 2px;
+    background-color: #f7d488;
+    transition: width 0.4s ease-in-out;
+  }
+
+    &:hover {
+    background: #444;
+      &::after{
+        width: 100%;
+      }
+    }
+
+    &.sidebar-link { // Estilos específicos para o sidebar link
+      // Adicione aqui os estilos que desejar para o sidebar-link, por exemplo:
+      display: flex;
+      align-items: center;
+      justify-content: space-between; // Para alinhar a seta
+      padding: 15px 20px; // Espaçamento interno
+
+      &:hover {
+          // ... outros estilos de hover
+      }
+
+      .arrow{
+          transition: transform 0.3s ease-in-out;
+      }
+      &:hover .arrow {
+          transform: rotate(180deg);
+      }
+
+  }
+
+
 }
 
-.sidebar-nav a:hover {
-  background: #444;
+.dropdown-mobile { // Estilos para o NavLink pai
+  position: relative; // Necessário para posicionar o dropdown
+    .dropdown-content-mobile {
+      display: none; // Inicia oculto
+      position: absolute;
+      left: 0; // Posiciona à esquerda do link
+      top: 100%; // Posiciona abaixo do link
+      background-color: #333;
+      padding: 10px 0;
+      min-width: 150px;
+      box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+      z-index: 3;
+
+      span {
+        color: grey;
+        padding: 10px;
+        display: block;
+      }
+
+    }
+
+    &:hover .dropdown-content-mobile { // Mostra ao passar o mouse
+      display: block;
+    }
+
 }
 
-a{
+.sidebar-nav .dropdown-sidebar{
+    position: relative;
+    .dropdown-content{
+      &.visible{
+        display: block;
+      }
+    }
+}
+
+a {
   cursor: pointer;
 }
 
@@ -218,15 +286,15 @@ a{
   height: 100%;
   background: rgba(0, 0, 0, 0.5);
   z-index: 999;
-  color: #FFF;
+  color: #fff;
 }
 
 @media screen and (min-width: 934px) {
   .bottom-navbar {
-    display: none ;
+    display: none;
   }
 
-  .links{
+  .links {
     display: flex !important;
   }
 }

@@ -120,7 +120,7 @@ let articles = [
   {
     id: 14,
     title: "Como Criar um Fundo de Emergência Ganhando Salário Mínimo",
-    photo: "/images/",
+    photo: "/images/fundoEmergencia/fundoEmergencia_capa.jpg",
     date: "12 de Dezembro de 2024",
     page: "/Blog/fundoDeEmergencia",
     desc: "Descubra como construir um fundo de emergência mesmo com recursos limitados. Aprenda passos práticos, dicas para economizar e estratégias para alcançar segurança financeira.",
@@ -129,7 +129,7 @@ let articles = [
   {
     id: 15,
     title: "Poupança x Investimentos: Qual a Melhor Opção para Seu Dinheiro em 2024?",
-    photo: "/images/",
+    photo: "/images/poupancaXInvestimentos/poupancaXInvestimento.webp",
     date: "11 de Dezembro de 2024",
     page: "/Blog/poupancaOuInvestimentos",
     desc: "Em um cenário econômico em constante transformação, a pergunta sobre onde alocar seu dinheiro se torna mais crucial do que nunca. Vamos explorar as nuances de cada alternativa para te ajudar a tomar a melhor decisão para o seu futuro financeiro.",
@@ -138,7 +138,7 @@ let articles = [
   {
     id: 16,
     title: "Como Economizar no Mercado: Estratégias para Reduzir a Conta Sem Passar Fome",
-    photo: "/images/",
+    photo: "/images/economizarMercado/economizarMercado_capa.webp",
     date: "11 de Dezembro de 2024",
     page: "/Blog/economizarNoMercadoSemPassarFome",
     desc: "Descubra estratégias práticas para economizar no mercado, reduzir seus gastos e manter uma alimentação de qualidade. Transforme pequenas economias em grandes resultados financeiros.",
@@ -147,7 +147,7 @@ let articles = [
   {
     id: 17,
     title: "Empreender com Pouco Dinheiro: Ideias de Negócios para Começar com Menos de R$ 500,00",
-    photo: "/images/",
+    photo: "/images/empreenderPoucoDinheiro/empreenderPoucoDinheiro.webp",
     date: "06 de Dezembro de 2024",
     page: "/Blog/empreenderComPoucoDinheiro",
     desc: "Descubra ideias de negócios para começar com menos de R$ 500,00 no Brasil. Aprenda estratégias práticas para empreender com um orçamento limitado e alcançar o sucesso.",
@@ -156,7 +156,7 @@ let articles = [
   {
     id: 18,
     title: "Transforme seus Talentos em Dinheiro: Como Lucrar com Habilidades Simples",
-    photo: "/images/",
+    photo: "/images/talentosEmDinheiro/talentosEmDinheiro_capa.webp",
     date: "04 de Dezembro de 2024",
     page: "/Blog/TalentosParaGerarRendaExtra",
     desc: "Descubra como transformar seus talentos e habilidades em uma fonte de renda. Aprenda a identificar oportunidades, calcular preços e divulgar seu trabalho para alcançar a liberdade financeira.",
