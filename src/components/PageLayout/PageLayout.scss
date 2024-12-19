@@ -157,9 +157,50 @@ li{
   background-color: #45a049;
 }
 
-strong{
-  
+.banner-image{
+  width:100%;
+  display:flex;
+  justify-content:center;
+   margin: 10px auto;
+   img{
+      max-width:100%;
+      height:auto;
+   }
 }
+
+.video-responsive{
+  overflow: hidden;
+ padding-bottom: 56.25%;
+  position: relative;
+  height:0;
+   iframe{
+      position:absolute;
+      top:0;
+      left:0;
+      width: 100%;
+      height: 100%;
+   }
+}
+
+.links-externos{
+  color:#61dafb;
+  text-decoration: underline;
+}
+
+.article-table{
+  width:100%;
+  border-collapse: collapse;
+  margin-bottom: 15px;
+  background-color: #a3a3a3;
+  }
+  .article-table th, .article-table td{
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align:left;
+  }
+  .article-table th{
+  background-color: #333;
+  }
 
 
 @media screen and (max-width: 1071px) {

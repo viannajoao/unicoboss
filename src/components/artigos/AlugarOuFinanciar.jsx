@@ -1,9 +1,9 @@
 
 import React from 'react';
 import PageLayout from '../../components/PageLayout';
-import jsonContent from '../../artigos/json/dropshipping/dropshipping.json';
+import jsonContent from '../../artigos/json/AlugarOuFinanciar/AlugarOuFinanciar.json';
 
-const dropshipping = () => {
+const AlugarOuFinanciar = () => {
     const renderContent = (item, index) => {
        switch (item.type) {
             case 'h1':
@@ -16,7 +16,9 @@ const dropshipping = () => {
                 return <p key={index} className='page-text' dangerouslySetInnerHTML={{__html: item.text}}/>;
              case 'ul':
                   return <ul key={index}>{item.items.map((li, liIndex) => <li key={liIndex} dangerouslySetInnerHTML={{ __html: li }} />)}</ul>;
-           case 'img':
+             case 'ol':
+                  return <ol key={index}>{item.items.map((li, liIndex) => <li key={liIndex} dangerouslySetInnerHTML={{ __html: li }} />)}</ol>;
+             case 'img':
                  return <figure key={index}>
                      <img src={item.src} alt={item.alt} id='img-default' />
                      {item.caption && <figcaption>{item.caption}</figcaption>}
@@ -24,7 +26,7 @@ const dropshipping = () => {
              case 'code':
                 return <pre key={index}><code>{item.text}</code></pre>;
             case 'video':
-                 return <div key={index} className='layout-video-container'><iframe src={item.src} title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe></div>;
+                 return <div key={index} className='layout-video-container'><iframe src={item.url} title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe></div>;
            default:
                return null;
        }
@@ -37,6 +39,6 @@ const dropshipping = () => {
         </PageLayout>
     );
 };
-export default dropshipping;
-// JSON Hash: 1ed83f7bcf2d8431984b70050746b2b5
+export default AlugarOuFinanciar;
+// JSON Hash: 93aed24d942460bdda87a68279a024b8
         

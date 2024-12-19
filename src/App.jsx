@@ -36,6 +36,8 @@ import InvestirPoucoDinheiro from "./components/artigos/InvestirPoucoDinheiro.js
 import AdmMicroempreendedor from "./components/artigos/AdmMicroempreendedor.jsx"
 import InvestirParaGanhar2000 from "./components/artigos/InvestirParaGanhar2000.jsx"
 import MindsetBaixaRenda from "./components/artigos/MindsetBaixaRenda.jsx"
+import AlugarOuFinanciar from "./components/artigos/AlugarOuFinanciar.jsx"
+import FaculdadeParaInvestir from "./components/artigos/FaculdadeParaInvestir.jsx"
 
 
 function App() {
@@ -85,6 +87,8 @@ function App() {
         <Route path='/Blog/administracaoParaMicroempreendedores' element={ <AdmMicroempreendedor />}/>
         <Route path='/Blog/investirParaGanhar2000'  element={ <InvestirParaGanhar2000 />}/>
         <Route path='/Blog/mindsetParaBaixaRenda' element={ <MindsetBaixaRenda />}/>
+        <Route path='/Blog/alugarOuFinanciarSuaCasaPrópria' element={ <AlugarOuFinanciar/>}/>
+        <Route path='/Blog/precisa-de-faculdade-para-investir' element={ <FaculdadeParaInvestir />}/>
       </Routes>
       {mostrarPesquisa && (
         <PesquisaOverlay

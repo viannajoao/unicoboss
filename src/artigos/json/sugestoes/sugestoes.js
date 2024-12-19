@@ -206,6 +206,24 @@ let articles = [
     page: "/Blog/mindsetParaBaixaRenda",
     desc: "Administrar o dinheiro com baixa renda pode ser desafiador, mas com o mindset correto, é possível evitar dívidas e construir um futuro financeiro estável. Aprenda como.",
     category: "Investimentos"
+  },
+  {
+    id: 24,
+    title: "Alugar ou Financiar sua casa própria?",
+    photo: "/images/",
+    date: "19 de Dezembro de 2024",
+    page: "/Blog/alugarOuFinanciarSuaCasaPrópria",
+    desc: "A decisão entre alugar ou financiar um imóvel é crucial. Analisamos os prós e contras de cada opção no contexto econômico atual para ajudar você a decidir.",
+    category: "Imoveis"
+  },
+  {
+    id: 25,
+    title: "Precisa de Faculdade para Saber Investir e Ganhar Dinheiro com Dividendos? Um Guia Completo",
+    photo: "/images/",
+    date: "19 de Dezembro de 2024",
+    page: "/Blog/precisa-de-faculdade-para-investir",
+    desc: "Este guia explora se é necessário ter formação acadêmica para investir com sucesso em dividendos, oferecendo insights para investidores com ou sem diploma.",
+    category: "Investimento"
   }
 ]
 

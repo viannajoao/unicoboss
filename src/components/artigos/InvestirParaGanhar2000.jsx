@@ -1,6 +1,8 @@
 
+import React from 'react';
 import PageLayout from '../../components/PageLayout';
 import jsonContent from '../../artigos/json/InvestirParaGanhar2000/InvestirParaGanhar2000.json';
+
 const InvestirParaGanhar2000 = () => {
     const renderContent = (item, index) => {
        switch (item.type) {
@@ -14,26 +16,27 @@ const InvestirParaGanhar2000 = () => {
                 return <p key={index} className='page-text' dangerouslySetInnerHTML={{__html: item.text}}/>;
              case 'ul':
                   return <ul key={index}>{item.items.map((li, liIndex) => <li key={liIndex} dangerouslySetInnerHTML={{ __html: li }} />)}</ul>;
-            case 'img':
+           case 'img':
                  return <figure key={index}>
                      <img src={item.src} alt={item.alt} id='img-default' />
                      {item.caption && <figcaption>{item.caption}</figcaption>}
-                  </figure>;
-            case 'code':
+                </figure>;
+             case 'code':
                 return <pre key={index}><code>{item.text}</code></pre>;
+            case 'video':
+                 return <div key={index} className='layout-video-container'><iframe src={item.src} title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe></div>;
            default:
                return null;
        }
     };
-
     return (
-        <PageLayout title={jsonContent.title} description={jsonContent.description}>
-           <div className="article-container">
-               {jsonContent.content.map((item, index) => renderContent(item, index))}
+        <PageLayout title={jsonContent.title} description={jsonContent.description} imageBanner={jsonContent.imageBanner} videoYoutube={jsonContent.videoYoutube}>
+         <div className="article-container">
+                {jsonContent.content.map((item, index) => renderContent(item, index))}
            </div>
         </PageLayout>
     );
 };
-
 export default InvestirParaGanhar2000;
+// JSON Hash: 29bb4d7ec816b0fb6a5ab65988f76916
         
