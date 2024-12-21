@@ -114,11 +114,12 @@ function NavBar({ mudarEstado, open, isTransparent, onSearchClick }) {
           </NavLink>
           <NavLink
             className="sidebar-link"
-            to="/contato"
+            to="/Cursos"
+            element={<Blog />}
             onClick={toggleSidebar}
             activeClassName="active"
           >
-            Contato
+            Cursos
           </NavLink>
           <NavLink
             className="sidebar-link"
@@ -128,6 +129,14 @@ function NavBar({ mudarEstado, open, isTransparent, onSearchClick }) {
             activeClassName="active"
           >
             Blog
+          </NavLink>
+          <NavLink
+            className="sidebar-link"
+            to="/contato"
+            onClick={toggleSidebar}
+            activeClassName="active"
+          >
+            Contato
           </NavLink>
         </nav>
       </div>
