@@ -38,6 +38,8 @@ import InvestirParaGanhar2000 from "./components/artigos/InvestirParaGanhar2000.
 import MindsetBaixaRenda from "./components/artigos/MindsetBaixaRenda.jsx"
 import AlugarOuFinanciar from "./components/artigos/AlugarOuFinanciar.jsx"
 import FaculdadeParaInvestir from "./components/artigos/FaculdadeParaInvestir.jsx"
+import MelhoresGastosParaRenda from "./components/artigos/MelhoresGastosParaRenda.jsx"
+import Courses from './pages/Courses/index.jsx'
 
 
 function App() {
@@ -89,6 +91,8 @@ function App() {
         <Route path='/Blog/mindsetParaBaixaRenda' element={ <MindsetBaixaRenda />}/>
         <Route path='/Blog/alugarOuFinanciarSuaCasaPrópria' element={ <AlugarOuFinanciar/>}/>
         <Route path='/Blog/precisa-de-faculdade-para-investir' element={ <FaculdadeParaInvestir />}/>
+        <Route path='/Blog/melhores-gastos-para-obter-renda' element={<MelhoresGastosParaRenda />}/>
+        <Route path='/Cursos' element={ <Courses />}/>
       </Routes>
       {mostrarPesquisa && (
         <PesquisaOverlay

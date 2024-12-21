@@ -50,7 +50,7 @@ function NavBar({ mudarEstado, open, isTransparent, onSearchClick }) {
             </ul>
           </li>
           <li>
-            <Link className="link" href="#">
+            <Link className="link" to="/Cursos">
               Cursos
             </Link>
           </li>
