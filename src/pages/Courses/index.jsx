@@ -3,12 +3,13 @@ import "./Courses.scss";
 
 function Courses(){
   return (
-    <div className="container-courses">
-      <h2>Cursos</h2>
+    <main className="container-courses">
+      <h1>Cursos</h1>
       <ul className="course-list">
         {courses.map(course => (
           <li key={course.id}>
             <h3>{course.title}</h3>
+            <img className="img-capa" src={course.photo} alt={course.title} />
             <p>{course.description}</p>
             <a className="saiba-mais" target="_blank" href={course.url}>Saiba mais</a>
           </li>
@@ -18,7 +19,7 @@ function Courses(){
       {/* Adicione mais cursos aqui */}
 
       
-    </div>
+    </main>
   )
 }
 
