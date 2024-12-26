@@ -25,7 +25,7 @@ import MindsetEnriquecer from './components/artigos/mindsetEnriquecer.jsx'
 import PlanejamentoFinanceiro from './components/artigos/planejamentoFinanceiro.jsx'
 import FundosImobiliarios from './components/artigos/fundosImobiliarios.jsx'
 import CartaoCredito from './components/artigos/cartaoCredito.jsx'
-import FundoEmergencia from "./components/artigos/FundoEmergencia.jsx"
+//import FundoEmergencia from "./components/artigos/FundoEmergencia.jsx"
 import PoupancaXInvestimento from "./components/artigos/poupancaXInvestimentos.jsx"
 import EconomizarMercado from "./components/artigos/EconomizarMercado.jsx"
 
@@ -81,7 +81,7 @@ function App() {
         <Route path='/Blog/planejamentoFinanceiro2025' element={ <PlanejamentoFinanceiro />}/>
         <Route path='/Blog/fundosImobiliariosParaGerarRendaPassiva' element={<FundosImobiliarios />}/>
         <Route path='/Blog/cartaoCreditoComoUsar' element={<CartaoCredito />}/>
-        <Route path="/Blog/fundoDeEmergencia" element={ <FundoEmergencia />}/>
+        <Route path="/Blog/fundoDeEmergencia" element={ <FundoDeEmergencia />}/>
         <Route path='/Blog/poupancaOuInvestimentos' element={ <PoupancaXInvestimento />}/>
         <Route path='/Blog/economizarNoMercadoSemPassarFome' element={ <EconomizarMercado />}/>
         <Route path='/Blog/empreenderComPoucoDinheiro' element={ <EmpreenderPoucoDinheiro />} />
@@ -93,7 +93,7 @@ function App() {
         <Route path='/Blog/alugarOuFinanciarSuaCasaPrópria' element={ <AlugarOuFinanciar/>}/>
         <Route path='/Blog/precisa-de-faculdade-para-investir' element={ <FaculdadeParaInvestir />}/>
         <Route path='/Blog/melhores-gastos-para-obter-renda' element={<MelhoresGastosParaRenda />}/>
-        <Route path='/Blog/fundo-emergencial' element={ <FundoDeEmergencia />} />
+        {/* <Route path='/Blog/fundo-emergencial' element={ <FundoDeEmergencia />} /> */}
         <Route path='/Cursos' element={ <Courses />}/>
       </Routes>
       {mostrarPesquisa && (
