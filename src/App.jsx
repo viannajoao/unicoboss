@@ -40,6 +40,7 @@ import AlugarOuFinanciar from "./components/artigos/AlugarOuFinanciar.jsx"
 import FaculdadeParaInvestir from "./components/artigos/FaculdadeParaInvestir.jsx"
 import MelhoresGastosParaRenda from "./components/artigos/MelhoresGastosParaRenda.jsx"
 import Courses from './pages/Courses/index.jsx'
+import FundoDeEmergencia from "./components/artigos/FundoDeEmergencia.jsx";
 
 
 function App() {
@@ -92,6 +93,7 @@ function App() {
         <Route path='/Blog/alugarOuFinanciarSuaCasaPrópria' element={ <AlugarOuFinanciar/>}/>
         <Route path='/Blog/precisa-de-faculdade-para-investir' element={ <FaculdadeParaInvestir />}/>
         <Route path='/Blog/melhores-gastos-para-obter-renda' element={<MelhoresGastosParaRenda />}/>
+        <Route path='/Blog/fundo-emergencial' element={ <FundoDeEmergencia />} />
         <Route path='/Cursos' element={ <Courses />}/>
       </Routes>
       {mostrarPesquisa && (

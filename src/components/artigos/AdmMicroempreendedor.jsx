@@ -1,5 +1,4 @@
 
-import React from 'react';
 import PageLayout from '../../components/PageLayout';
 import jsonContent from '../../artigos/json/AdmMicroempreendedor/AdmMicroempreendedor.json';
 
@@ -24,7 +23,7 @@ const AdmMicroempreendedor = () => {
              case 'code':
                 return <pre key={index}><code>{item.text}</code></pre>;
             case 'video':
-                 return <div key={index} className='layout-video-container'><iframe src={item.src} title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe></div>;
+                 return <div key={index} className='layout-video-container'><iframe src={item.src} title='YouTube video player' frameBorder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe></div>;
            default:
                return null;
        }
