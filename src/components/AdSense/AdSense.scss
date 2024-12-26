@@ -7,13 +7,15 @@
 
 .sidebar-left {
   display: flex;
-  background-color: red;
+  //background-color: red;
+  flex: 2;
 }
 
 .sidebar-right {
   display: flex;
-  background-color: red;
-  max-width: 300px;
+  //sbackground-color: red;
+  flex: 2;
+  
 }
 
 .ad-space {
