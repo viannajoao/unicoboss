@@ -9,7 +9,7 @@ function Finance() {
         </h2>
         <div className="info-finance">
           <picture>
-            <img src="/images/financeiro.webp" />
+            <img src="/images/financeiro.webp" alt="uma mão colocado uma moeda em um cofrinho de porquinho"/>
           </picture>
           <p>
 

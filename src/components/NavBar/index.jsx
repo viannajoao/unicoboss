@@ -58,7 +58,7 @@ function NavBar({ mudarEstado, open, isTransparent, onSearchClick }) {
             <Link className="link" to="/Blog">Blog</Link>
           </li>
           <li>
-            <a className="link" onClick={scrollToFooter}>
+            <a className="link" href="footer" onClick={scrollToFooter}>
               Contato
             </a>
           </li>
@@ -71,9 +71,9 @@ function NavBar({ mudarEstado, open, isTransparent, onSearchClick }) {
         <Link to="/" className="nav-icon">
           <i className="fas fa-home"></i>
         </Link>
-        <a href="#" className="nav-icon">
+        {/* <a href="#" className="nav-icon">
           <i className="fas fa-info-circle"></i>
-        </a>
+        </a> */}
         <a onClick={onSearchClick} className="nav-icon">
           <i className="fas fa-search"></i>
         </a>

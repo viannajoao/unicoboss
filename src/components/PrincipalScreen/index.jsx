@@ -36,7 +36,7 @@ const PrincipalScreen = () => {
           <div className="overlay"></div>
         </div>
 
-        <a className="circle" onClick={scrollToInformation}>
+        <a className="circle" href="information" onClick={scrollToInformation}>
           <div className="arrow-down"></div>
         </a>
 

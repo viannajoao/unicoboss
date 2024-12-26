@@ -18,6 +18,8 @@ const PageLayout = ({ children, title, description, imageBanner, videoYoutube })
         <div className="page-layout">
             <HelmetProvider>
                 <Helmet>
+                <meta name="description" content={description} />
+
                     <title>{title}</title>
                     <meta name="description" content={description} />
                 </Helmet>
