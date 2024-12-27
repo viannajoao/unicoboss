@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import PageLayout from '../PageLayout';
-import imagemUrl01 from '../../../public/images/artigos/administracaoParaMicroempreendedores/cbimage.png';
-import imagemUrl02 from '../../../public/images/artigos/administracaoParaMicroempreendedores/imageUrl02.png';
+import imagemUrl01 from '/images/artigos/administracaoParaMicroempreendedores/cbimage.png';
+import imagemUrl02 from '/images/artigos/administracaoParaMicroempreendedores/imageUrl02.png';
 
 
 const StyledArticle = styled.article`

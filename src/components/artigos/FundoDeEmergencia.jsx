@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import PageLayout from '../PageLayout';
-import imagemUrl02 from '../../../public/images/artigos/fundoEmergencia/imageUrl02.png';
-import imagemUrl01 from '../../../public/images/artigos/fundoEmergencia/imagemUrl01.png';
+import imagemUrl02 from '/images/artigos/fundoEmergencia/imageUrl02.png';
+import imagemUrl01 from '/images/artigos/fundoEmergencia/imagemUrl01.png';
 
 // Variavéis para as imagens (coloque o endereço das imagens posteriormente)
 
