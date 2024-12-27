@@ -3,7 +3,8 @@ import PageLayout from '../PageLayout';
 import imagemUrl02 from '/images/artigos/fundoEmergencia/imageUrl02.png';
 import imagemUrl01 from '/images/artigos/fundoEmergencia/imagemUrl01.png';
 
-// Variavéis para as imagens (coloque o endereço das imagens posteriormente)
+const titulo = "Como Criar um Fundo de Emergência Ganhando Salário Mínimo";
+ const description = "Descubra como construir um fundo de emergência mesmo com recursos limitados. Aprenda passos práticos, dicas para economizar e estratégias para alcançar segurança financeira.";
 
 
 const StyledArticle = styled.article`
@@ -18,7 +19,7 @@ const StyledArticle = styled.article`
   padding-bottom: 56.25%; /* 16:9 Aspect Ratio (divide height by width) */
   position: relative;
   height: 0;
-  margin: 0px 10px 10px 0px;
+  margin: 20px 0px 20px 0px;
 }
 
 .video-responsive iframe {
@@ -203,7 +204,7 @@ const StyledArticle = styled.article`
 const ComoCriarUmFundo = () => {
   return (
     <StyledArticle>
-      <PageLayout className='container'>
+      <PageLayout title={titulo} description={description} >
         <div className='container-article'>
       <h1>Como Criar um Fundo de Emergência Ganhando Salário Mínimo</h1>
       <p>

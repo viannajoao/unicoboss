@@ -6,7 +6,6 @@ import imagemUrl02 from '/images/artigos/administracaoParaMicroempreendedores/im
 
 const StyledArticle = styled.article`
   .container-article{
-    //background-color: green;
     max-width: 900px;
   }
 
